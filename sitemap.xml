@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://muua.cc/about/index.html</loc>
+    
+    <lastmod>2020-12-09</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://muua.cc/tags/index.html</loc>
     
     <lastmod>2020-12-09</lastmod>
@@ -10,13 +17,6 @@
   
   <url>
     <loc>https://muua.cc/categories/index.html</loc>
-    
-    <lastmod>2020-12-09</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://muua.cc/about/index.html</loc>
     
     <lastmod>2020-12-09</lastmod>
     
@@ -207,6 +207,13 @@
   </url>
   
   <url>
+    <loc>https://muua.cc/tags/Kali/</loc>
+    <lastmod>2020-12-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://muua.cc/tags/Linux/</loc>
     <lastmod>2020-12-09</lastmod>
     <changefreq>daily</changefreq>
@@ -221,14 +228,14 @@
   </url>
   
   <url>
-    <loc>https://muua.cc/tags/Kali/</loc>
+    <loc>https://muua.cc/tags/Nessus/</loc>
     <lastmod>2020-12-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://muua.cc/tags/Nessus/</loc>
+    <loc>https://muua.cc/tags/OSCP/</loc>
     <lastmod>2020-12-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -250,13 +257,6 @@
   
   <url>
     <loc>https://muua.cc/tags/Wireless/</loc>
-    <lastmod>2020-12-09</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://muua.cc/tags/OSCP/</loc>
     <lastmod>2020-12-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
