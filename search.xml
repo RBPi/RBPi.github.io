@@ -1,6 +1,182 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Bilibili - Cloud Developer Intern - Interview</title>
+    <url>/d6ca8848/</url>
+    <content><![CDATA[<h2 id="笔试题："><a href="#笔试题：" class="headerlink" title="笔试题："></a>笔试题：</h2><ul>
+<li>在线编程<br>有一个从小到大排列的整数数组A，元素个数是6万。在A中查找某个整数n，如果n存在于A中则返回它的下标，否则返回-1，你能想到几种查找办法？</li>
+</ul>
+<p>测试用例：[-1, 2, 9, 100, 200]–&gt;查找2返回1，查找3返回-1</p>
+<ul>
+<li><p>俄罗斯轮盘赌：<br>6弹巢左轮手枪，两个子弹相邻放入<br>转圈后开第一枪，没有子弹射出。<br>直接开第二枪概率：？<br>重新转圈后开第二枪概率：？</p>
+</li>
+<li><p>切：<br>一个长方体中挖出一个长方体<br>怎么切剩余的两块体积相等？</p>
+</li>
+<li><p>测量体对角线：<br>三个相等的圆柱，一把直尺<br>如何测量圆柱体对角线长？</p>
+</li>
+</ul>
+<h2 id="问答题："><a href="#问答题：" class="headerlink" title="问答题："></a>问答题：</h2><p>什么是CDN，介绍一下？</p>
+<p>python和shell的区别，如何选择？根据需要实现的功能出发选择</p>
+<p>通过vmware api实现调用自动化，版本后可以行？能不能进行clone操作？</p>
+]]></content>
+      <tags>
+        <tag>Interview</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>CERTIFICATION FOR THE CYBERSECURITY WORKFORCE</title>
+    <url>/564a7ec7/</url>
+    <content><![CDATA[<h1 id="Offensive-Security-Certified-Professional-OSCP"><a href="#Offensive-Security-Certified-Professional-OSCP" class="headerlink" title="Offensive Security Certified Professional (OSCP)"></a>Offensive Security Certified Professional (OSCP)</h1><h2 id="Course-Overview"><a href="#Course-Overview" class="headerlink" title="Course Overview"></a>Course Overview</h2><iframe loading="lazy" src="https://player.vimeo.com/video/384631124?autoplay=0&amp;title=0&amp;byline=0&amp;portrait=0" frameborder="0" sandbox="allow-same-origin allow-scripts" allowfullscreen="allowfullscreen" style="box-sizing: inherit; position: absolute; top: 0px; left: 0px; width: 1244px; height: 622px;"></iframe>
+
+<p>Penetration Testing with Kali Linux is the foundational course at Offensive Security. Those new to OffSec or penetration testing should start here.<br>This online ethical hacking course is self-paced. It introduces penetration testing tools and techniques via hands-on experience. PWK trains not only the skills, but also the mindset required to be a successful penetration tester.</p>
+<h1 id="ISC2-CISSP"><a href="#ISC2-CISSP" class="headerlink" title="ISC2 CISSP"></a>ISC2 CISSP</h1><p>The examination is delivered at Pearson Vue test centres.</p>
+<h1 id="CREST-Practitioner-Security-Analyst-CPSA"><a href="#CREST-Practitioner-Security-Analyst-CPSA" class="headerlink" title="CREST Practitioner Security Analyst (CPSA)"></a>CREST Practitioner Security Analyst (CPSA)</h1><p><strong>Cost</strong><br>The CREST Practitioner Security Analyst examination costs £275 + VAT.  The examination is delivered at <a href="https://www.pearsonvue.co.uk/crest">Pearson Vue test centres</a>.</p>
+]]></content>
+      <tags>
+        <tag>Cybersecurity</tag>
+        <tag>Certification</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>CREST Practitioner Security Analyst (CPSA)</title>
+    <url>/b5857e08/</url>
+    <content><![CDATA[<p><img data-src="https://www.crest-approved.org/wp-content/themes/crest-2018-wp-theme/images/logo_color.png"></p>
+<h2 id="Cost"><a href="#Cost" class="headerlink" title="Cost"></a>Cost</h2><p>The CREST Practitioner Security Analyst examination costs £275 + VAT.</p>
+<h2 id="Examination"><a href="#Examination" class="headerlink" title="Examination"></a>Examination</h2><p>The CREST Practitioner Security Analyst qualification is valid for three (3) years.<br>The examination has one component: a multiple choice written question section.</p>
+<h2 id="Written-Component"><a href="#Written-Component" class="headerlink" title="Written Component"></a>Written Component</h2><p>The written component of the CPSA Examination will comprise one hundred and twenty (120) multiple choice questions, all of which the candidate must complete.</p>
+<h2 id="Timings"><a href="#Timings" class="headerlink" title="Timings"></a>Timings</h2><p>Your examination will last 2 hours.<br>Note that your permitted maximum session time at Pearson Vue is 2.5 hours in total, allowing you time to read the Code of Conduct and also to provide feedback following the examination.</p>
+<h2 id="Marking-Scheme-Pass-Mark"><a href="#Marking-Scheme-Pass-Mark" class="headerlink" title="Marking Scheme / Pass Mark"></a>Marking Scheme / Pass Mark</h2><p>Successful candidates must score 60% of the available marks in each component. That is:<br>at least 72 marks from the written component (possible total: 120 marks).</p>
+<h2 id="Communication-of-Results"><a href="#Communication-of-Results" class="headerlink" title="Communication of Results"></a>Communication of Results</h2><p>Examination results from the automated process are provided to the candidate at the end of the exam session.<br>Examination scripts will be reviewed within fifteen working days of the examination and formal certificates produced where appropriate and posted to the candidate in hard copy.</p>
+<h2 id="Reading-Material"><a href="#Reading-Material" class="headerlink" title="Reading Material"></a>Reading Material</h2><p>Network Security Assessment (by O’Reilly, 2nd edition)<br>Hacking Exposed Linux<br>Red Team Field Manual (RTFM) (by Ben Clarke)<br>Nmap Network Scanning: The Official Nmap Project (by Gordon Lyon)<br>Guide to Network Discovery and Security Scanning<br>Grey Hat Hacking (by Allen Harper, Shon Harris &amp; Jonathan Ness)</p>
+]]></content>
+      <tags>
+        <tag>CREST</tag>
+        <tag>CPSA</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Git Basics with Hexo</title>
+    <url>/f497dc94/</url>
+    <content><![CDATA[<h2 id="推送源码到远程仓库"><a href="#推送源码到远程仓库" class="headerlink" title="推送源码到远程仓库"></a>推送源码到远程仓库</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git add .</span><br><span class="line">git commit -m &quot;Update&quot;</span><br><span class="line">git push -u origin master</span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="拉取远程仓库到本地"><a href="#拉取远程仓库到本地" class="headerlink" title="拉取远程仓库到本地"></a>拉取远程仓库到本地</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"># 查看远程仓库信息</span><br><span class="line">git remote -v</span><br><span class="line"></span><br><span class="line"># 拉取远程仓库</span><br><span class="line">git fetch origin master</span><br><span class="line"></span><br><span class="line"># 比较仓库差异</span><br><span class="line">git log -p master.. origin&#x2F;master</span><br><span class="line"></span><br><span class="line"># 合并代码</span><br><span class="line">git merge origin&#x2F;master</span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="更换-Hexo-环境之后重新初始化环境"><a href="#更换-Hexo-环境之后重新初始化环境" class="headerlink" title="更换 Hexo 环境之后重新初始化环境"></a>更换 Hexo 环境之后重新初始化环境</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git clone git@github.com:RBPi&#x2F;BLog.git</span><br><span class="line">cd Blog</span><br><span class="line">npm install</span><br><span class="line">npm install hexo</span><br><span class="line">npm install hexo-deployer-git --save</span><br><span class="line">git submodule update --init</span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <tags>
+        <tag>Git</tag>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>HW 2020</title>
+    <url>/8f22424c/</url>
+    <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <div class="hbe-input-container">
+  <input type="password" id="hbePass" placeholder="" />
+    <label for="hbePass">Please input password to read this post</label>
+    <div class="bottom-line"></div>
+  </div>
+  <script id="hbeData" type="hbeData" data-hmacdigest="1a2a522cd3a2afbab6f8d20927dd6d5f1153d690a46220ea8bcd75ee0747edd1">63a312949432c8b685f72735c6775d0cfa7571ec8fc3e2babfb3f43bcb2c02cf4e066ee9b3036a71690f63b9072e7a4d98fbaebe605f50ae0e747cf98e602be02c513c38184db37d417b3cdabaf2fb5427511ca115ccd59c5a595a20090d10c3b11c7947469d4e9a0fbaa95dbd88424d</script>
+</div>
+<script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
+      <tags>
+        <tag>HW</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>How To Configure The Socks Proxy Support On Openvpn</title>
+    <url>/1619da96/</url>
+    <content><![CDATA[<p>Edit *.ovpn<br><code>--socks-proxy server [port] [authfile]</code><br>Connect to remote host through a Socks5 proxy at address server and port port (default=1080). authfile (optional) is a file containing a username and password on 2 lines, or “stdin” to prompt from console.</p>
+]]></content>
+      <tags>
+        <tag>OpenVPN</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hexo and Theme-Next Configuration</title>
+    <url>/e06ddb37/</url>
+    <content><![CDATA[<h1 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a>Hexo</h1><h2 id="Install-Hexo"><a href="#Install-Hexo" class="headerlink" title="Install Hexo"></a>Install Hexo</h2><p>A fast, simple &amp; powerful blog framework</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm install hexo-cli -g</span><br><span class="line">$ hexo init &lt;folder&gt;</span><br><span class="line">$ cd &lt;folder&gt;</span><br><span class="line">$ npm install</span><br></pre></td></tr></table></figure>
+
+<h2 id="Theme"><a href="#Theme" class="headerlink" title="Theme"></a>Theme</h2><h3 id="Install-Theme-Next-via-Submodule"><a href="#Install-Theme-Next-via-Submodule" class="headerlink" title="Install Theme-Next via Submodule"></a>Install Theme-Next via Submodule</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">cp theme&#x2F;next&#x2F;_config.yml _config.next.yml</span><br><span class="line"></span><br><span class="line"># Install Theme-Next</span><br><span class="line">git submodule add https:&#x2F;&#x2F;github.com&#x2F;theme-next&#x2F;hexo-theme-next themes&#x2F;next</span><br><span class="line"></span><br><span class="line"># Update Theme-Next</span><br><span class="line">git submodule update --remote</span><br></pre></td></tr></table></figure>
+
+<h2 id="Plugins"><a href="#Plugins" class="headerlink" title="Plugins"></a>Plugins</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm install --save hexo-blog-encrypt</span><br><span class="line"></span><br><span class="line"># https:&#x2F;&#x2F;github.com&#x2F;rozbo&#x2F;hexo-abbrlink</span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;rozbo&#x2F;hexo-abbrlink</span><br></pre></td></tr></table></figure>
+
+<h2 id="Deploy-Website"><a href="#Deploy-Website" class="headerlink" title="Deploy Website"></a>Deploy Website</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo generate &amp;&amp; hexo deploy</span><br></pre></td></tr></table></figure>
+
+<h1 id="Git"><a href="#Git" class="headerlink" title="Git"></a>Git</h1><h2 id="Push-to-Remote-Repository"><a href="#Push-to-Remote-Repository" class="headerlink" title="Push to Remote Repository"></a>Push to Remote Repository</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git add . &amp;&amp; git commit -m &quot;Upload Blog Source Code&quot; &amp;&amp; git push origin master</span><br></pre></td></tr></table></figure>
+
+
+]]></content>
+      <tags>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>How to repair Chinese characters in Kali Linux</title>
+    <url>/adbe8765/</url>
+    <content><![CDATA[<p>更新软件源</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">apt-get update</span><br></pre></td></tr></table></figure>
+
+
+
+<p>安装中文字体</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">apt-get install xfonts-intl-chinese ttf-wqy-microhei ttf-wqy-zenhei xfonts-wqy</span><br></pre></td></tr></table></figure>
+
+
+
+<p>软件包：xfonts-intl-chinese</p>
+<p>X 系统国际化字体 – 中文</p>
+<p>这个软件包包括了一些 GB2312、GB8565-88、BIG5 (ETen)、和 SiSheng 中文字体。 如果您要用中文浏览、打印或创作文档和使用以上几种编码方式，将需要使用这些字体。这些字体用于 X Window 系统。</p>
+]]></content>
+      <tags>
+        <tag>Kali</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Install Typora on Linux</title>
+    <url>/fbc9a5e0/</url>
+    <content><![CDATA[<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"># or run:</span><br><span class="line"># sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys BA300B7755AFCFAE</span><br><span class="line">wget -qO - https:&#x2F;&#x2F;typora.io&#x2F;linux&#x2F;public-key.asc | sudo apt-key add -</span><br><span class="line"></span><br><span class="line"># add Typora&#39;s repository</span><br><span class="line">sudo apt-get install software-properties-common</span><br><span class="line">sudo add-apt-repository &#39;deb https:&#x2F;&#x2F;typora.io&#x2F;linux .&#x2F;&#39;</span><br><span class="line">sudo apt-get update</span><br><span class="line"></span><br><span class="line"># install typora</span><br><span class="line">sudo apt-get install typora</span><br></pre></td></tr></table></figure>
+
+<p>Referer: <a href="https://www.typora.io/#linux">https://www.typora.io/#linux</a></p>
+]]></content>
+      <tags>
+        <tag>Linux</tag>
+        <tag>Software</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Nessus</title>
+    <url>/613b46cc/</url>
+    <content><![CDATA[<h1 id="Nessus"><a href="#Nessus" class="headerlink" title="Nessus"></a>Nessus</h1><p>(Linux/Unix)</p>
+<p>Nessus Plugins Update: Failed</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#x2F;opt&#x2F;nessus&#x2F;sbin&#x2F;nessuscli fetch --challenge</span><br></pre></td></tr></table></figure>
+
+
+
+<h3 id="Generate-a-license"><a href="#Generate-a-license" class="headerlink" title="Generate a license"></a>Generate a license</h3><p><a href="https://plugins.nessus.org/v2/offline.php">https://plugins.nessus.org/v2/offline.php</a></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#x2F;opt&#x2F;nessus&#x2F;sbin&#x2F;nessuscli fetch --register-offline nessus.license</span><br><span class="line">&#x2F;opt&#x2F;nessus&#x2F;sbin&#x2F;nessuscli update all-2.0.tar.gz</span><br><span class="line">systemctl restart nessusd.service</span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <tags>
+        <tag>Nessus</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>OSCP Review</title>
+    <url>/oscp-review/</url>
+    <content><![CDATA[<h1 id="WHEN-THINGS-GET-TOUGH-TRY-HARDER"><a href="#WHEN-THINGS-GET-TOUGH-TRY-HARDER" class="headerlink" title="WHEN THINGS GET TOUGH, TRY HARDER"></a>WHEN THINGS GET TOUGH, TRY HARDER</h1>]]></content>
+      <tags>
+        <tag>OSCP</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Wireless Attacks Cheat Sheet</title>
     <url>/oswp-review/</url>
     <content><![CDATA[<h2 id="Getting-Started"><a href="#Getting-Started" class="headerlink" title="Getting Started"></a>Getting Started</h2><h3 id="MAC"><a href="#MAC" class="headerlink" title="MAC"></a>MAC</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">root@bt:~<span class="comment"># macchanger --show &lt;interface name&gt;</span></span><br><span class="line">Current MAC: 00:f1:40:93:00:f5 (unknown)</span><br><span class="line"></span><br><span class="line"><span class="comment">#  Set the MAC XX:XX:XX:XX:XX:XX</span></span><br><span class="line">macchanger --mac=XX:XX:XX:XX:XX:XX mon0</span><br></pre></td></tr></table></figure>
@@ -94,18 +270,25 @@
       </tags>
   </entry>
   <entry>
-    <title>CERTIFICATION FOR THE CYBERSECURITY WORKFORCE</title>
-    <url>/564a7ec7/</url>
-    <content><![CDATA[<h1 id="Offensive-Security-Certified-Professional-OSCP"><a href="#Offensive-Security-Certified-Professional-OSCP" class="headerlink" title="Offensive Security Certified Professional (OSCP)"></a>Offensive Security Certified Professional (OSCP)</h1><h2 id="Course-Overview"><a href="#Course-Overview" class="headerlink" title="Course Overview"></a>Course Overview</h2><iframe loading="lazy" src="https://player.vimeo.com/video/384631124?autoplay=0&amp;title=0&amp;byline=0&amp;portrait=0" frameborder="0" sandbox="allow-same-origin allow-scripts" allowfullscreen="allowfullscreen" style="box-sizing: inherit; position: absolute; top: 0px; left: 0px; width: 1244px; height: 622px;"></iframe>
-
-<p>Penetration Testing with Kali Linux is the foundational course at Offensive Security. Those new to OffSec or penetration testing should start here.<br>This online ethical hacking course is self-paced. It introduces penetration testing tools and techniques via hands-on experience. PWK trains not only the skills, but also the mindset required to be a successful penetration tester.</p>
-<h1 id="ISC2-CISSP"><a href="#ISC2-CISSP" class="headerlink" title="ISC2 CISSP"></a>ISC2 CISSP</h1><p>The examination is delivered at Pearson Vue test centres.</p>
-<h1 id="CREST-Practitioner-Security-Analyst-CPSA"><a href="#CREST-Practitioner-Security-Analyst-CPSA" class="headerlink" title="CREST Practitioner Security Analyst (CPSA)"></a>CREST Practitioner Security Analyst (CPSA)</h1><p><strong>Cost</strong><br>The CREST Practitioner Security Analyst examination costs £275 + VAT.  The examination is delivered at <a href="https://www.pearsonvue.co.uk/crest">Pearson Vue test centres</a>.</p>
+    <title>Server-Side Request Forgery</title>
+    <url>/cec975dd/</url>
+    <content><![CDATA[<h1 id="Server-Side-Request-Forgery-SSRF"><a href="#Server-Side-Request-Forgery-SSRF" class="headerlink" title="Server-Side Request Forgery (SSRF)"></a>Server-Side Request Forgery (SSRF)</h1><p>CWE-918</p>
+<h2 id="SSRF-简介"><a href="#SSRF-简介" class="headerlink" title="SSRF 简介"></a>SSRF 简介</h2><p>服务端请求伪造</p>
+<ul>
+<li>利用可以发起网络请求的外部服务当作跳板来攻击内部其他服务</li>
+<li>比如从指定URL地址获取网页文本内容，加载指定地址的图片</li>
+</ul>
+<p>攻击目标</p>
+<ul>
+<li>从外网无法访问的本地应用和内网系统</li>
+</ul>
+<p>成因</p>
+<ul>
+<li>服务端使用网络请求的方式从其他服务器应用获取数据</li>
+<li>目标地址用户可控且未对目标地址做过滤与限制</li>
+<li>网络请求的方法支持HTTP/HTTPS以外的协议且未做过滤和限制</li>
+</ul>
 ]]></content>
-      <tags>
-        <tag>Cybersecurity</tag>
-        <tag>Certification</tag>
-      </tags>
   </entry>
   <entry>
     <title>SANS Computer Security Training &amp; Certification</title>
@@ -173,35 +356,6 @@
       </tags>
   </entry>
   <entry>
-    <title>CREST Practitioner Security Analyst (CPSA)</title>
-    <url>/b5857e08/</url>
-    <content><![CDATA[<p><img data-src="https://www.crest-approved.org/wp-content/themes/crest-2018-wp-theme/images/logo_color.png"></p>
-<h2 id="Cost"><a href="#Cost" class="headerlink" title="Cost"></a>Cost</h2><p>The CREST Practitioner Security Analyst examination costs £275 + VAT.</p>
-<h2 id="Examination"><a href="#Examination" class="headerlink" title="Examination"></a>Examination</h2><p>The CREST Practitioner Security Analyst qualification is valid for three (3) years.<br>The examination has one component: a multiple choice written question section.</p>
-<h2 id="Written-Component"><a href="#Written-Component" class="headerlink" title="Written Component"></a>Written Component</h2><p>The written component of the CPSA Examination will comprise one hundred and twenty (120) multiple choice questions, all of which the candidate must complete.</p>
-<h2 id="Timings"><a href="#Timings" class="headerlink" title="Timings"></a>Timings</h2><p>Your examination will last 2 hours.<br>Note that your permitted maximum session time at Pearson Vue is 2.5 hours in total, allowing you time to read the Code of Conduct and also to provide feedback following the examination.</p>
-<h2 id="Marking-Scheme-Pass-Mark"><a href="#Marking-Scheme-Pass-Mark" class="headerlink" title="Marking Scheme / Pass Mark"></a>Marking Scheme / Pass Mark</h2><p>Successful candidates must score 60% of the available marks in each component. That is:<br>at least 72 marks from the written component (possible total: 120 marks).</p>
-<h2 id="Communication-of-Results"><a href="#Communication-of-Results" class="headerlink" title="Communication of Results"></a>Communication of Results</h2><p>Examination results from the automated process are provided to the candidate at the end of the exam session.<br>Examination scripts will be reviewed within fifteen working days of the examination and formal certificates produced where appropriate and posted to the candidate in hard copy.</p>
-<h2 id="Reading-Material"><a href="#Reading-Material" class="headerlink" title="Reading Material"></a>Reading Material</h2><p>Network Security Assessment (by O’Reilly, 2nd edition)<br>Hacking Exposed Linux<br>Red Team Field Manual (RTFM) (by Ben Clarke)<br>Nmap Network Scanning: The Official Nmap Project (by Gordon Lyon)<br>Guide to Network Discovery and Security Scanning<br>Grey Hat Hacking (by Allen Harper, Shon Harris &amp; Jonathan Ness)</p>
-]]></content>
-      <tags>
-        <tag>CREST</tag>
-        <tag>CPSA</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Install Typora on Linux</title>
-    <url>/fbc9a5e0/</url>
-    <content><![CDATA[<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"># or run:</span><br><span class="line"># sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys BA300B7755AFCFAE</span><br><span class="line">wget -qO - https:&#x2F;&#x2F;typora.io&#x2F;linux&#x2F;public-key.asc | sudo apt-key add -</span><br><span class="line"></span><br><span class="line"># add Typora&#39;s repository</span><br><span class="line">sudo apt-get install software-properties-common</span><br><span class="line">sudo add-apt-repository &#39;deb https:&#x2F;&#x2F;typora.io&#x2F;linux .&#x2F;&#39;</span><br><span class="line">sudo apt-get update</span><br><span class="line"></span><br><span class="line"># install typora</span><br><span class="line">sudo apt-get install typora</span><br></pre></td></tr></table></figure>
-
-<p>Referer: <a href="https://www.typora.io/#linux">https://www.typora.io/#linux</a></p>
-]]></content>
-      <tags>
-        <tag>Linux</tag>
-        <tag>Software</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>NEW DEVELOPMENTS: RETIRING CTP AND INTRODUCING NEW COURSES</title>
     <url>/f50dfad5/</url>
     <content><![CDATA[<img data-src="/f50dfad5/cracking-the-perimeter-sunset-2-1024x536.png" class>
@@ -216,160 +370,6 @@
       <tags>
         <tag>Offensive Security</tag>
         <tag>OSCE</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>HW 2020</title>
-    <url>/8f22424c/</url>
-    <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
-  <div class="hbe-input-container">
-  <input type="password" id="hbePass" placeholder="" />
-    <label for="hbePass">Please input password to read this post</label>
-    <div class="bottom-line"></div>
-  </div>
-  <script id="hbeData" type="hbeData" data-hmacdigest="1a2a522cd3a2afbab6f8d20927dd6d5f1153d690a46220ea8bcd75ee0747edd1">63a312949432c8b685f72735c6775d0cfa7571ec8fc3e2babfb3f43bcb2c02cf4e066ee9b3036a71690f63b9072e7a4d98fbaebe605f50ae0e747cf98e602be02c513c38184db37d417b3cdabaf2fb5427511ca115ccd59c5a595a20090d10c3b11c7947469d4e9a0fbaa95dbd88424d</script>
-</div>
-<script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
-      <tags>
-        <tag>HW</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Nessus</title>
-    <url>/613b46cc/</url>
-    <content><![CDATA[<h1 id="Nessus"><a href="#Nessus" class="headerlink" title="Nessus"></a>Nessus</h1><p>(Linux/Unix)</p>
-<p>Nessus Plugins Update: Failed</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#x2F;opt&#x2F;nessus&#x2F;sbin&#x2F;nessuscli fetch --challenge</span><br></pre></td></tr></table></figure>
-
-
-
-<h3 id="Generate-a-license"><a href="#Generate-a-license" class="headerlink" title="Generate a license"></a>Generate a license</h3><p><a href="https://plugins.nessus.org/v2/offline.php">https://plugins.nessus.org/v2/offline.php</a></p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#x2F;opt&#x2F;nessus&#x2F;sbin&#x2F;nessuscli fetch --register-offline nessus.license</span><br><span class="line">&#x2F;opt&#x2F;nessus&#x2F;sbin&#x2F;nessuscli update all-2.0.tar.gz</span><br><span class="line">systemctl restart nessusd.service</span><br></pre></td></tr></table></figure>
-
-]]></content>
-      <tags>
-        <tag>Nessus</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Git Basics with Hexo</title>
-    <url>/f497dc94/</url>
-    <content><![CDATA[<h2 id="推送源码到远程仓库"><a href="#推送源码到远程仓库" class="headerlink" title="推送源码到远程仓库"></a>推送源码到远程仓库</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git add .</span><br><span class="line">git commit -m &quot;Update&quot;</span><br><span class="line">git push -u origin master</span><br></pre></td></tr></table></figure>
-
-
-
-<h2 id="拉取远程仓库到本地"><a href="#拉取远程仓库到本地" class="headerlink" title="拉取远程仓库到本地"></a>拉取远程仓库到本地</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"># 查看远程仓库信息</span><br><span class="line">git remote -v</span><br><span class="line"></span><br><span class="line"># 拉取远程仓库</span><br><span class="line">git fetch origin master</span><br><span class="line"></span><br><span class="line"># 比较仓库差异</span><br><span class="line">git log -p master.. origin&#x2F;master</span><br><span class="line"></span><br><span class="line"># 合并代码</span><br><span class="line">git merge origin&#x2F;master</span><br></pre></td></tr></table></figure>
-
-
-
-<h2 id="更换-Hexo-环境之后重新初始化环境"><a href="#更换-Hexo-环境之后重新初始化环境" class="headerlink" title="更换 Hexo 环境之后重新初始化环境"></a>更换 Hexo 环境之后重新初始化环境</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git clone git@github.com:RBPi&#x2F;BLog.git</span><br><span class="line">cd Blog</span><br><span class="line">npm install</span><br><span class="line">npm install hexo</span><br><span class="line">npm install hexo-deployer-git --save</span><br><span class="line">git submodule update --init</span><br></pre></td></tr></table></figure>
-
-]]></content>
-      <tags>
-        <tag>Git</tag>
-        <tag>Hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hexo and Theme-Next Configuration</title>
-    <url>/e06ddb37/</url>
-    <content><![CDATA[<h1 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a>Hexo</h1><h2 id="Install-Hexo"><a href="#Install-Hexo" class="headerlink" title="Install Hexo"></a>Install Hexo</h2><p>A fast, simple &amp; powerful blog framework</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm install hexo-cli -g</span><br><span class="line">$ hexo init &lt;folder&gt;</span><br><span class="line">$ cd &lt;folder&gt;</span><br><span class="line">$ npm install</span><br></pre></td></tr></table></figure>
-
-<h2 id="Theme"><a href="#Theme" class="headerlink" title="Theme"></a>Theme</h2><h3 id="Install-Theme-Next-via-Submodule"><a href="#Install-Theme-Next-via-Submodule" class="headerlink" title="Install Theme-Next via Submodule"></a>Install Theme-Next via Submodule</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">cp theme&#x2F;next&#x2F;_config.yml _config.next.yml</span><br><span class="line"></span><br><span class="line"># Install Theme-Next</span><br><span class="line">git submodule add https:&#x2F;&#x2F;github.com&#x2F;theme-next&#x2F;hexo-theme-next themes&#x2F;next</span><br><span class="line"></span><br><span class="line"># Update Theme-Next</span><br><span class="line">git submodule update --remote</span><br></pre></td></tr></table></figure>
-
-<h2 id="Plugins"><a href="#Plugins" class="headerlink" title="Plugins"></a>Plugins</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm install --save hexo-blog-encrypt</span><br><span class="line"></span><br><span class="line"># https:&#x2F;&#x2F;github.com&#x2F;rozbo&#x2F;hexo-abbrlink</span><br><span class="line">https:&#x2F;&#x2F;github.com&#x2F;rozbo&#x2F;hexo-abbrlink</span><br></pre></td></tr></table></figure>
-
-<h2 id="Deploy-Website"><a href="#Deploy-Website" class="headerlink" title="Deploy Website"></a>Deploy Website</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo generate &amp;&amp; hexo deploy</span><br></pre></td></tr></table></figure>
-
-<h1 id="Git"><a href="#Git" class="headerlink" title="Git"></a>Git</h1><h2 id="Push-to-Remote-Repository"><a href="#Push-to-Remote-Repository" class="headerlink" title="Push to Remote Repository"></a>Push to Remote Repository</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git add . &amp;&amp; git commit -m &quot;Upload Blog Source Code&quot; &amp;&amp; git push origin master</span><br></pre></td></tr></table></figure>
-
-
-]]></content>
-      <tags>
-        <tag>Hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>How To Configure The Socks Proxy Support On Openvpn</title>
-    <url>/1619da96/</url>
-    <content><![CDATA[<p>Edit *.ovpn<br><code>--socks-proxy server [port] [authfile]</code><br>Connect to remote host through a Socks5 proxy at address server and port port (default=1080). authfile (optional) is a file containing a username and password on 2 lines, or “stdin” to prompt from console.</p>
-]]></content>
-      <tags>
-        <tag>OpenVPN</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Server-Side Request Forgery</title>
-    <url>/cec975dd/</url>
-    <content><![CDATA[<h1 id="Server-Side-Request-Forgery-SSRF"><a href="#Server-Side-Request-Forgery-SSRF" class="headerlink" title="Server-Side Request Forgery (SSRF)"></a>Server-Side Request Forgery (SSRF)</h1><p>CWE-918</p>
-<h2 id="SSRF-简介"><a href="#SSRF-简介" class="headerlink" title="SSRF 简介"></a>SSRF 简介</h2><p>服务端请求伪造</p>
-<ul>
-<li>利用可以发起网络请求的外部服务当作跳板来攻击内部其他服务</li>
-<li>比如从指定URL地址获取网页文本内容，加载指定地址的图片</li>
-</ul>
-<p>攻击目标</p>
-<ul>
-<li>从外网无法访问的本地应用和内网系统</li>
-</ul>
-<p>成因</p>
-<ul>
-<li>服务端使用网络请求的方式从其他服务器应用获取数据</li>
-<li>目标地址用户可控且未对目标地址做过滤与限制</li>
-<li>网络请求的方法支持HTTP/HTTPS以外的协议且未做过滤和限制</li>
-</ul>
-]]></content>
-  </entry>
-  <entry>
-    <title>OSCP Review</title>
-    <url>/oscp-review/</url>
-    <content><![CDATA[<h1 id="WHEN-THINGS-GET-TOUGH-TRY-HARDER"><a href="#WHEN-THINGS-GET-TOUGH-TRY-HARDER" class="headerlink" title="WHEN THINGS GET TOUGH, TRY HARDER"></a>WHEN THINGS GET TOUGH, TRY HARDER</h1>]]></content>
-      <tags>
-        <tag>OSCP</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>How to repair Chinese characters in Kali Linux</title>
-    <url>/adbe8765/</url>
-    <content><![CDATA[<p>更新软件源</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">apt-get update</span><br></pre></td></tr></table></figure>
-
-
-
-<p>安装中文字体</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">apt-get install xfonts-intl-chinese ttf-wqy-microhei ttf-wqy-zenhei xfonts-wqy</span><br></pre></td></tr></table></figure>
-
-
-
-<p>软件包：xfonts-intl-chinese</p>
-<p>X 系统国际化字体 – 中文</p>
-<p>这个软件包包括了一些 GB2312、GB8565-88、BIG5 (ETen)、和 SiSheng 中文字体。 如果您要用中文浏览、打印或创作文档和使用以上几种编码方式，将需要使用这些字体。这些字体用于 X Window 系统。</p>
-]]></content>
-      <tags>
-        <tag>Kali</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Bilibili - Cloud Developer Intern - Interview</title>
-    <url>/d6ca8848/</url>
-    <content><![CDATA[<h2 id="笔试题："><a href="#笔试题：" class="headerlink" title="笔试题："></a>笔试题：</h2><ul>
-<li>在线编程<br>有一个从小到大排列的整数数组A，元素个数是6万。在A中查找某个整数n，如果n存在于A中则返回它的下标，否则返回-1，你能想到几种查找办法？</li>
-</ul>
-<p>测试用例：[-1, 2, 9, 100, 200]–&gt;查找2返回1，查找3返回-1</p>
-<ul>
-<li><p>俄罗斯轮盘赌：<br>6弹巢左轮手枪，两个子弹相邻放入<br>转圈后开第一枪，没有子弹射出。<br>直接开第二枪概率：？<br>重新转圈后开第二枪概率：？</p>
-</li>
-<li><p>切：<br>一个长方体中挖出一个长方体<br>怎么切剩余的两块体积相等？</p>
-</li>
-<li><p>测量体对角线：<br>三个相等的圆柱，一把直尺<br>如何测量圆柱体对角线长？</p>
-</li>
-</ul>
-<h2 id="问答题："><a href="#问答题：" class="headerlink" title="问答题："></a>问答题：</h2><p>什么是CDN，介绍一下？</p>
-<p>python和shell的区别，如何选择？根据需要实现的功能出发选择</p>
-<p>通过vmware api实现调用自动化，版本后可以行？能不能进行clone操作？</p>
-]]></content>
-      <tags>
-        <tag>Interview</tag>
       </tags>
   </entry>
 </search>
