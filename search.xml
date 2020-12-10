@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title>Wireless Attacks Cheat Sheet</title>
-    <url>/oswp-review/</url>
+    <url>/archives/oswp-review/</url>
     <content><![CDATA[<h2 id="Getting-Started"><a href="#Getting-Started" class="headerlink" title="Getting Started"></a>Getting Started</h2><h3 id="MAC"><a href="#MAC" class="headerlink" title="MAC"></a>MAC</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">root@bt:~<span class="comment"># macchanger --show &lt;interface name&gt;</span></span><br><span class="line">Current MAC: 00:f1:40:93:00:f5 (unknown)</span><br><span class="line"></span><br><span class="line"><span class="comment">#  Set the MAC XX:XX:XX:XX:XX:XX</span></span><br><span class="line">macchanger --mac=XX:XX:XX:XX:XX:XX mon0</span><br></pre></td></tr></table></figure>
 
 <h3 id="Open-the-Monitor-Mode"><a href="#Open-the-Monitor-Mode" class="headerlink" title="Open the Monitor Mode"></a>Open the Monitor Mode</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">root@bt:~<span class="comment"># airmon-ng check kill &amp;&amp; ifconfig wlan1 down &amp;&amp; iwconfig wlan1 mode monitor &amp;&amp; ifconfig wlan1 up &amp;&amp; airmon-ng start wlan1 3</span></span><br><span class="line">root@bt:~<span class="comment"># airmon-ng check kill &amp;&amp; ifconfig mon0 down &amp;&amp; iwconfig mon0 mode monitor &amp;&amp; ifconfig mon0 up</span></span><br><span class="line"></span><br><span class="line">iwconfig &lt;interface name&gt; mode monitor channel &lt;channel number&gt;</span><br></pre></td></tr></table></figure>
@@ -86,7 +86,7 @@
   </entry>
   <entry>
     <title>Raspberry Pi</title>
-    <url>/f90540f5/</url>
+    <url>/archives/f90540f5/</url>
     <content><![CDATA[<h2 id="Video-Configures"><a href="#Video-Configures" class="headerlink" title="Video Configures"></a>Video Configures</h2><p><a href="https://www.raspberrypi.org/documentation/configuration/config-txt/video.md">https://www.raspberrypi.org/documentation/configuration/config-txt/video.md</a> </p>
 ]]></content>
       <tags>
@@ -95,7 +95,7 @@
   </entry>
   <entry>
     <title>CERTIFICATION FOR THE CYBERSECURITY WORKFORCE</title>
-    <url>/564a7ec7/</url>
+    <url>/archives/564a7ec7/</url>
     <content><![CDATA[<h1 id="Offensive-Security-Certified-Professional-OSCP"><a href="#Offensive-Security-Certified-Professional-OSCP" class="headerlink" title="Offensive Security Certified Professional (OSCP)"></a>Offensive Security Certified Professional (OSCP)</h1><h2 id="Course-Overview"><a href="#Course-Overview" class="headerlink" title="Course Overview"></a>Course Overview</h2><iframe loading="lazy" src="https://player.vimeo.com/video/384631124?autoplay=0&amp;title=0&amp;byline=0&amp;portrait=0" frameborder="0" sandbox="allow-same-origin allow-scripts" allowfullscreen="allowfullscreen" style="box-sizing: inherit; position: absolute; top: 0px; left: 0px; width: 1244px; height: 622px;"></iframe>
 
 <p>Penetration Testing with Kali Linux is the foundational course at Offensive Security. Those new to OffSec or penetration testing should start here.<br>This online ethical hacking course is self-paced. It introduces penetration testing tools and techniques via hands-on experience. PWK trains not only the skills, but also the mindset required to be a successful penetration tester.</p>
@@ -109,7 +109,7 @@
   </entry>
   <entry>
     <title>SANS Computer Security Training &amp; Certification</title>
-    <url>/dda1607a/</url>
+    <url>/archives/dda1607a/</url>
     <content><![CDATA[<h1 id="OnDemand-Specials"><a href="#OnDemand-Specials" class="headerlink" title="OnDemand: Specials"></a>OnDemand: Specials</h1><p><a href="https://www.sans.org/ondemand/specials">https://www.sans.org/ondemand/specials</a></p>
 <h2 id="Final-Week-Get-an-iPad-Pro-with-Apple-Pencil-Surface-Go-2-or-300-Off-with-OnDemand-Training"><a href="#Final-Week-Get-an-iPad-Pro-with-Apple-Pencil-Surface-Go-2-or-300-Off-with-OnDemand-Training" class="headerlink" title="Final Week! Get an iPad Pro with Apple Pencil, Surface Go 2, or $300 Off with OnDemand Training!"></a>Final Week! Get an iPad Pro with Apple Pencil, Surface Go 2, or $300 Off with OnDemand Training!</h2><p>SANS Institute’s professional, online information security training platform, <strong>OnDemand</strong>, allows you to complete world-class courses anywhere, at any time. Last Chance to get an iPad Pro with Apple Pencil, a Surface Go 2, or Take $300 Off with <strong>OnDemand</strong> training.</p>
 <p>SANS most popular long courses (5 or 6-day) are eligible for this limited time offer, simply use your preferred discount code when you checkout to participate.</p>
@@ -174,7 +174,7 @@
   </entry>
   <entry>
     <title>CREST Practitioner Security Analyst (CPSA)</title>
-    <url>/b5857e08/</url>
+    <url>/archives/b5857e08/</url>
     <content><![CDATA[<p><img data-src="https://www.crest-approved.org/wp-content/themes/crest-2018-wp-theme/images/logo_color.png"></p>
 <h2 id="Cost"><a href="#Cost" class="headerlink" title="Cost"></a>Cost</h2><p>The CREST Practitioner Security Analyst examination costs £275 + VAT.</p>
 <h2 id="Examination"><a href="#Examination" class="headerlink" title="Examination"></a>Examination</h2><p>The CREST Practitioner Security Analyst qualification is valid for three (3) years.<br>The examination has one component: a multiple choice written question section.</p>
@@ -191,7 +191,7 @@
   </entry>
   <entry>
     <title>Install Typora on Linux</title>
-    <url>/fbc9a5e0/</url>
+    <url>/archives/fbc9a5e0/</url>
     <content><![CDATA[<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"># or run:</span><br><span class="line"># sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys BA300B7755AFCFAE</span><br><span class="line">wget -qO - https:&#x2F;&#x2F;typora.io&#x2F;linux&#x2F;public-key.asc | sudo apt-key add -</span><br><span class="line"></span><br><span class="line"># add Typora&#39;s repository</span><br><span class="line">sudo apt-get install software-properties-common</span><br><span class="line">sudo add-apt-repository &#39;deb https:&#x2F;&#x2F;typora.io&#x2F;linux .&#x2F;&#39;</span><br><span class="line">sudo apt-get update</span><br><span class="line"></span><br><span class="line"># install typora</span><br><span class="line">sudo apt-get install typora</span><br></pre></td></tr></table></figure>
 
 <p>Referer: <a href="https://www.typora.io/#linux">https://www.typora.io/#linux</a></p>
@@ -203,14 +203,14 @@
   </entry>
   <entry>
     <title>NEW DEVELOPMENTS: RETIRING CTP AND INTRODUCING NEW COURSES</title>
-    <url>/f50dfad5/</url>
-    <content><![CDATA[<img data-src="/f50dfad5/cracking-the-perimeter-sunset-2-1024x536.png" class>
+    <url>/archives/f50dfad5/</url>
+    <content><![CDATA[<img data-src="/archives/f50dfad5/cracking-the-perimeter-sunset-2-1024x536.png" class>
 
 <p>News: <a href="https://www.offensive-security.com/offsec/retiring-ctp-intro-new-courses/">https://www.offensive-security.com/offsec/retiring-ctp-intro-new-courses/</a></p>
 <p>本周一（2020年8月10日）刚买OSCE课程，准备月底进行学习的。<br>我买之前还特地发邮给Orders - 询问OSCE近期有没有更新计划，他们说没有我才放心买的，没想到本周四就更新了OSCE认证，我裂开 :(</p>
-<img data-src="/f50dfad5/ctp-exploit-code.png" class>
+<img data-src="/archives/f50dfad5/ctp-exploit-code.png" class>
 
-<img data-src="/f50dfad5/advanced-courses-3-in-1-cert.png" class>
+<img data-src="/archives/f50dfad5/advanced-courses-3-in-1-cert.png" class>
 
 ]]></content>
       <tags>
@@ -220,7 +220,7 @@
   </entry>
   <entry>
     <title>HW 2020</title>
-    <url>/8f22424c/</url>
+    <url>/archives/8f22424c/</url>
     <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
   <div class="hbe-input-container">
   <input type="password" id="hbePass" placeholder="" />
@@ -229,14 +229,14 @@
   </div>
   <script id="hbeData" type="hbeData" data-hmacdigest="1a2a522cd3a2afbab6f8d20927dd6d5f1153d690a46220ea8bcd75ee0747edd1">63a312949432c8b685f72735c6775d0cfa7571ec8fc3e2babfb3f43bcb2c02cf4e066ee9b3036a71690f63b9072e7a4d98fbaebe605f50ae0e747cf98e602be02c513c38184db37d417b3cdabaf2fb5427511ca115ccd59c5a595a20090d10c3b11c7947469d4e9a0fbaa95dbd88424d</script>
 </div>
-<script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
+<script src="/archives/lib/blog-encrypt.js"></script><link href="/archives/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
       <tags>
         <tag>HW</tag>
       </tags>
   </entry>
   <entry>
     <title>Nessus</title>
-    <url>/613b46cc/</url>
+    <url>/archives/613b46cc/</url>
     <content><![CDATA[<h1 id="Nessus"><a href="#Nessus" class="headerlink" title="Nessus"></a>Nessus</h1><p>(Linux/Unix)</p>
 <p>Nessus Plugins Update: Failed</p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#x2F;opt&#x2F;nessus&#x2F;sbin&#x2F;nessuscli fetch --challenge</span><br></pre></td></tr></table></figure>
@@ -253,7 +253,7 @@
   </entry>
   <entry>
     <title>Git Basics with Hexo</title>
-    <url>/f497dc94/</url>
+    <url>/archives/f497dc94/</url>
     <content><![CDATA[<h2 id="推送源码到远程仓库"><a href="#推送源码到远程仓库" class="headerlink" title="推送源码到远程仓库"></a>推送源码到远程仓库</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git add .</span><br><span class="line">git commit -m &quot;Update&quot;</span><br><span class="line">git push -u origin master</span><br></pre></td></tr></table></figure>
 
 
@@ -272,7 +272,7 @@
   </entry>
   <entry>
     <title>Hexo and Theme-Next Configuration</title>
-    <url>/e06ddb37/</url>
+    <url>/archives/e06ddb37/</url>
     <content><![CDATA[<h1 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a>Hexo</h1><h2 id="Install-Hexo"><a href="#Install-Hexo" class="headerlink" title="Install Hexo"></a>Install Hexo</h2><p>A fast, simple &amp; powerful blog framework</p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm install hexo-cli -g</span><br><span class="line">$ hexo init &lt;folder&gt;</span><br><span class="line">$ cd &lt;folder&gt;</span><br><span class="line">$ npm install</span><br></pre></td></tr></table></figure>
 
@@ -292,7 +292,7 @@
   </entry>
   <entry>
     <title>How To Configure The Socks Proxy Support On Openvpn</title>
-    <url>/1619da96/</url>
+    <url>/archives/1619da96/</url>
     <content><![CDATA[<p>Edit *.ovpn<br><code>--socks-proxy server [port] [authfile]</code><br>Connect to remote host through a Socks5 proxy at address server and port port (default=1080). authfile (optional) is a file containing a username and password on 2 lines, or “stdin” to prompt from console.</p>
 ]]></content>
       <tags>
@@ -301,7 +301,7 @@
   </entry>
   <entry>
     <title>Server-Side Request Forgery</title>
-    <url>/cec975dd/</url>
+    <url>/archives/cec975dd/</url>
     <content><![CDATA[<h1 id="Server-Side-Request-Forgery-SSRF"><a href="#Server-Side-Request-Forgery-SSRF" class="headerlink" title="Server-Side Request Forgery (SSRF)"></a>Server-Side Request Forgery (SSRF)</h1><p>CWE-918</p>
 <h2 id="SSRF-简介"><a href="#SSRF-简介" class="headerlink" title="SSRF 简介"></a>SSRF 简介</h2><p>服务端请求伪造</p>
 <ul>
@@ -322,7 +322,7 @@
   </entry>
   <entry>
     <title>OSCP Review</title>
-    <url>/oscp-review/</url>
+    <url>/archives/oscp-review/</url>
     <content><![CDATA[<h1 id="WHEN-THINGS-GET-TOUGH-TRY-HARDER"><a href="#WHEN-THINGS-GET-TOUGH-TRY-HARDER" class="headerlink" title="WHEN THINGS GET TOUGH, TRY HARDER"></a>WHEN THINGS GET TOUGH, TRY HARDER</h1>]]></content>
       <tags>
         <tag>OSCP</tag>
@@ -330,7 +330,7 @@
   </entry>
   <entry>
     <title>How to repair Chinese characters in Kali Linux</title>
-    <url>/adbe8765/</url>
+    <url>/archives/adbe8765/</url>
     <content><![CDATA[<p>更新软件源</p>
 <figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">apt-get update</span><br></pre></td></tr></table></figure>
 
@@ -351,7 +351,7 @@
   </entry>
   <entry>
     <title>Bilibili - Cloud Developer Intern - Interview</title>
-    <url>/d6ca8848/</url>
+    <url>/archives/d6ca8848/</url>
     <content><![CDATA[<h2 id="笔试题："><a href="#笔试题：" class="headerlink" title="笔试题："></a>笔试题：</h2><ul>
 <li>在线编程<br>有一个从小到大排列的整数数组A，元素个数是6万。在A中查找某个整数n，如果n存在于A中则返回它的下标，否则返回-1，你能想到几种查找办法？</li>
 </ul>
