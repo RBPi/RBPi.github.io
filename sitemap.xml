@@ -151,20 +151,6 @@
   </url>
   
   <url>
-    <loc>https://muua.cc/tags/Cybersecurity/</loc>
-    <lastmod>2020-12-10</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://muua.cc/tags/Certification/</loc>
-    <lastmod>2020-12-10</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://muua.cc/tags/CREST/</loc>
     <lastmod>2020-12-10</lastmod>
     <changefreq>daily</changefreq>
@@ -193,6 +179,20 @@
   </url>
   
   <url>
+    <loc>https://muua.cc/tags/Cybersecurity/</loc>
+    <lastmod>2020-12-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://muua.cc/tags/Certification/</loc>
+    <lastmod>2020-12-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://muua.cc/tags/HW/</loc>
     <lastmod>2020-12-10</lastmod>
     <changefreq>daily</changefreq>
@@ -200,7 +200,21 @@
   </url>
   
   <url>
+    <loc>https://muua.cc/tags/OpenVPN/</loc>
+    <lastmod>2020-12-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://muua.cc/tags/Kali/</loc>
+    <lastmod>2020-12-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://muua.cc/tags/OSCP/</loc>
     <lastmod>2020-12-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -221,14 +235,7 @@
   </url>
   
   <url>
-    <loc>https://muua.cc/tags/OpenVPN/</loc>
-    <lastmod>2020-12-10</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://muua.cc/tags/Nessus/</loc>
+    <loc>https://muua.cc/tags/Raspberry-Pi/</loc>
     <lastmod>2020-12-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -256,21 +263,7 @@
   </url>
   
   <url>
-    <loc>https://muua.cc/tags/OSCP/</loc>
-    <lastmod>2020-12-10</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://muua.cc/tags/Raspberry-Pi/</loc>
-    <lastmod>2020-12-10</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://muua.cc/tags/SANS/</loc>
+    <loc>https://muua.cc/tags/Nessus/</loc>
     <lastmod>2020-12-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -278,6 +271,13 @@
   
   <url>
     <loc>https://muua.cc/tags/OSCE/</loc>
+    <lastmod>2020-12-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://muua.cc/tags/SANS/</loc>
     <lastmod>2020-12-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
